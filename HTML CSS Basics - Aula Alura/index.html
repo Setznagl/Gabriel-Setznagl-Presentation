@@ -5,27 +5,36 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--- <link rel="stylesheet" href="reset.css"> -->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="Styles/style.css">
     <title>Learning HTML e CSS</title>
         <body>
-            <header></header>
+            <header class="header__panel">
+                <nav class="nav__panel">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">Sobre mim</a>
+                </nav>
+            </header>
             <main class="presentation">
                 <section class="presentation__textheader">
-                    <h1>Eleve seu negócio digital a outro nível com um <strong>Front-end de qualidade!</strong></h1>
-                    <p><strong class="boge-t">&#9749; Sou Gabriel Setznagl, desenvolvedor Front-end em treinamento de HTML, 
-                    CSS e Javascript.
-                    </strong></p>
-                        <div class="presentation__button">
-                            <a href="https://www.linkedin.com/in/gabriel-setznagl/">Linkedin</a>
-                            <a href="https://github.com/Setznagl">Github</a>
-                        </div>
+                        <h1>Eleve seu negócio digital a outro nível com um <strong>Front-end de qualidade!</strong></h1>
+                        <p><strong class="boge-t">&#9749; Sou Gabriel Setznagl, desenvolvedor Front-end em treinamento de HTML, 
+                        CSS e Javascript.
+                        </strong></p>
+                                <h2 class="presentation__button__label"><strong>Acesse minhas Redes</strong></h2>
+                            <div class="presentation__button">
+                                <a href="https://www.linkedin.com/in/gabriel-setznagl/">Linkedin</a>
+                                <a href="https://github.com/Setznagl">Github</a>
+                            </div>
                 </section>
        <!---<iframe id="gbimg" src="LAV.jpeg" width="100%" height="100%" scrolling="no" allowfullscreen="no"></iframe> -->
-            <figure><img id="gbimg" src="LAV.jpeg" width="100%" height="100%" alt="Ilustração do programador Gabriel Setznagl"> 
+            <figure><img id="gbimg" src="LAV.jpeg" width="484.82vw" height="437.5vh" alt="Ilustração do programador Gabriel Setznagl"> 
             <figcaption>Campo de legenda do elemento figure</figcaption></figure>
+                <!---        484.82vw =~ 543px                 437.5 vh =~ 490          -->
       <!--- <img id="gbimg" src="LAV.jpeg" alt="Ilustração do programador Gabriel Setznagl"> -->
-        <footer></footer>
             </main>   
+        <footer class="presentation__footer"><p>
+                Desenvolvido por Alura
+         </p></footer>
         </body>
     </head>
 </html>
