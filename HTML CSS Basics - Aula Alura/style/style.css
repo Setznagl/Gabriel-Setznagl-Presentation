@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+*{}
+:root{
+    --borda-construcao: 2px solid red;
+    --fonte-painel: 'Alkatra', sans-serif;
+    --fonte-texto: 'Montserrat', sans-serif;
+    --fonte-texto-relevante: 'Krona one', sans-serif;
+    --peso-padrao-fonte: 400;
+    --cor-fundo: #4E6E81;
+    --cor-auxiliar: #FF0303;
+    --cor-auxiliar-secundaria: #F9DBBB;
+    --cor-auxiliar-terciaria: #2E3840;
+    --imagem:
+}
+/*bordas vermelhas para ajudar na construção*/
+header, main, footer {border: var(--borda-construcao);}
+/*-------------------------------------------*/
+.body{box-sizing: border-box;}
+/*-------------------------------------------*/
+.container-nav{}
+    .nav-panel{
+        padding: 5% 0% 1% 15%;
+        background-color: var(--cor-fundo);
+        color: var(--cor-auxiliar-secundaria);
+        font-family: var(--fonte-painel);
+        font-weight: var(--peso-padrao-fonte);
+        font-size: 2rem;
+    }
+        .nav-item{
+            border: var(--borda-construcao);
+            color: var(--cor-auxiliar-secundaria);
+            margin-right: 1.5rem;
+            text-decoration: none;
+        }
+/*--------------------------------------------*/
+.container-principal{
+    background-color: var(--cor-auxiliar-terciaria);
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+    .main-panel{
+
+    }
+        .main-item{
+            color: var(--cor-auxiliar-secundaria);
+            font-family: var(--fonte-painel);
+            font-weight: var(--peso-padrao-fonte);
+            font-size: 2rem;
+        }
+            #main-figure{
+                border-radius: 1.5rem;
+                border: 0.3rem solid var(--cor-auxiliar);
+            }
+/*--------------------------------------------*/
+.container-footer{
+    padding: 4.8% 0 4.7% 0;
+    background-color: var(--cor-auxiliar);
+}        
