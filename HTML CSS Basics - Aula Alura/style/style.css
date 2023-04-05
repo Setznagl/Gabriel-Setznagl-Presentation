@@ -4,7 +4,7 @@
 
 *{}
 :root{
-    --borda-construcao: 2px solid red;
+    --borda-construcao: 5px solid green;
     --fonte-painel: 'Alkatra', sans-serif;
     --fonte-texto: 'Montserrat', sans-serif;
     --fonte-texto-relevante: 'Krona one', sans-serif;
@@ -13,10 +13,9 @@
     --cor-auxiliar: #FF0303;
     --cor-auxiliar-secundaria: #F9DBBB;
     --cor-auxiliar-terciaria: #2E3840;
-    --imagem:
 }
-/*bordas vermelhas para ajudar na construção*/
-header, main, footer {border: var(--borda-construcao);}
+/*bordas para ajudar na construção*/
+#principal__figure, .principal__section, .principal__section_sc{border: var(--borda-construcao);}
 /*-------------------------------------------*/
 .body{box-sizing: border-box;}
 /*-------------------------------------------*/
@@ -30,33 +29,72 @@ header, main, footer {border: var(--borda-construcao);}
         font-size: 2rem;
     }
         .nav-item{
-            border: var(--borda-construcao);
-            color: var(--cor-auxiliar-secundaria);
+            color:var(--cor-auxiliar-secundaria);
             margin-right: 1.5rem;
             text-decoration: none;
         }
 /*--------------------------------------------*/
-.container-principal{
+.principal{
     background-color: var(--cor-auxiliar-terciaria);
     display: flex;
-    align-items:center;
-    justify-content:space-around;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1%;
 }
-    .main-panel{
-
+    .principal__section{
+        width: 50%;
+       
     }
-        .main-item{
+        .principal__section_text{
             color: var(--cor-auxiliar-secundaria);
-            font-family: var(--fonte-painel);
             font-weight: var(--peso-padrao-fonte);
-            font-size: 2rem;
+            font-family: var(--fonte-texto);
+            font-size: 1.5rem;
         }
-            #main-figure{
-                border-radius: 1.5rem;
-                border: 0.3rem solid var(--cor-auxiliar);
+            .principal__section_sc{ 
+                padding-top: 2rem;
             }
+                .principal__section__scitem{
+                    color: var(--cor-auxiliar-secundaria);
+                    font-family: var(--fonte-painel);
+                    font-weight: var(--peso-padrao-fonte);
+                    font-size: 2rem;
+                    margin-right: 6.5%;
+                    text-decoration: none;
+                }
+                    #principal__figure{
+                        width: 50%;
+                    }
 /*--------------------------------------------*/
 .container-footer{
     padding: 4.8% 0 4.7% 0;
     background-color: var(--cor-auxiliar);
 }        
+
+@media (max-width: 1200px){
+    .principal{
+        flex-direction: column-reverse;
+    }
+        .principal__section{
+            width: 50%;  
+        }
+            .principal__section_text{
+                color: var(--cor-auxiliar-secundaria);
+                font-weight: var(--peso-padrao-fonte);
+                font-family: var(--fonte-texto);
+                font-size: 1.5rem;
+            }
+                .principal__section_sc{ 
+                    padding-top: 2rem;
+                }
+                    .principal__section__scitem{
+                        color: var(--cor-auxiliar-secundaria);
+                        font-family: var(--fonte-painel);
+                        font-weight: var(--peso-padrao-fonte);
+                        font-size: 2rem;
+                        margin-right: 4%;
+                        text-decoration: none;
+                    }
+                        #principal__figure{
+                            width: 50%;
+}
