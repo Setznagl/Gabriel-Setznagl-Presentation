@@ -58,7 +58,7 @@ h1 {
 .tecla.focus,
 .tecla:focus {
   outline: none;
-  box-shadow: 1px 1px 10px var(--luz);
+  box-shadow: 2px 2px 10px var(--luz);
 }
 
 .tecla.active:focus,
