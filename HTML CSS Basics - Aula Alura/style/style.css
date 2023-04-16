@@ -71,11 +71,20 @@
                     #principal__figure{
                         width: 50%;
                     }
-/*--------------------------------------------*/
-.container-footer{
-    padding: 4.8% 0 4.7% 0;
-    background-color: var(--cor-auxiliar);
-}  
+        .container-footer{
+            padding: 4.8% 0 4.7% 0;
+            background-color: var(--cor-auxiliar);
+        }
+    .footer-text {
+        display: block;
+        background-color: var(--cor-auxiliar);
+        color: var(--cor-auxiliar-secundaria);
+        font-family: var(--fonte-painel);
+        font-weight: var(--peso-padrao-fonte);
+        margin-top: -5%;
+        padding: 0% 0% 0% 15%;
+        font-size: 2rem;
+    }
 /*--------------------------------------------*/      
 
         @media (max-width: 1200px){
