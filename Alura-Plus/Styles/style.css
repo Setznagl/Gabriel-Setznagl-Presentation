@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+:root{
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+    --fonte-principal: 'Inter' sans-serif;
+}
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;}
+/*----------------------------------*/
+.propriedades-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+/*----------------------------------*/
+.principal{
+    background-image: url("/Alura-Plus/Assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}.secundario{
+     margin: 0 6em;
+    align-items: center;}
+/*----------------------------------*/
+.propriedades__texto__titulo{
+    color: var(--branco-principal);
+    font-size: 1.75rem;
+    font-weight: 700;
+    }.propriedades__texto__descritivo{
+
+    color: var(--cinza-secundario);
+    font-weight: 400;
+    font-size: 1rem;}
+/*----------------------------------*/
+.caixa-conteudo__principal__unico{
+    margin: 0 6em;
+}
+.caixa-conteudo__secundario__multiplo{
+    padding: 2em;
+}
+.propriedades__imagem__principal{
+    margin: 1em 0em 2em 0em;
+}.propriedades__imagem__secundaria{
+    width: 80%;
+}
+.propriedades__botao {
+    background-color: var(--botao-azul);
+    border-radius: 0.375rem;
+    padding: 1em;
+    color:var(--branco-principal);
+    display:block;
+    margin-bottom: 1em;
+}.propriedades__botao.botao__anomalo__01 {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);}
+    .propriedades__botao.botao__anomalo__02{
+            display: inline-block;
+            margin-top: 1em;}
+
+    
