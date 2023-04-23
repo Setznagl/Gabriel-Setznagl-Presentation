@@ -81,10 +81,53 @@ body {
     list-style: none;}
 .lista__footer__link{
     color: var(--branco-principal);
-    margin: 2em 0.3em;}
+    margin: 2em 0.3em;
+    transition: 0.5s;
+}.lista__footer__link:hover{color: var(--botao-azul);
+    border: 1px solid var(--botao-azul);}
+
 .footer__texto__final{
     color: var(--cinza-secundario);
     font-size: 1em;
     font-weight: 400;
     margin: 0 33% 2em 33%;
+}
+
+@media screen and (max-width: 768px){
+    .propriedades-container{
+        display: block;
+        background-image: none;
+        height: 100vw;
+    }
+    .propriedades__imagem__principal{
+       width: 50vw;
+    }
+    .caixa-conteudo__principal__unico{
+        margin: 2em 2em;
+    }
+    .secundario{
+       margin: 0;
+       text-align: center;
+    }
+    .propriedades__imagem__secundaria{
+       width: 50vw;
+    }
+    .lista__dispositivos{
+        display: block;
+    }
+    .lista__footer{
+        display: block;
+    }
+    .lista__footer__link{
+        font-size: 1.2rem;
+        margin: 0.5em 0.3em;
+        border: 1px solid var(--cinza-secundario);
+    }
+    .footer__texto__final{
+        font-size: 0.75em;
+        margin: 0 5% 1em 5%;
+    }
+    .item__lista__dispositivos{
+        text-align: center;
+    }
 }
