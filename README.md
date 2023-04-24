@@ -1,8 +1,10 @@
-# 💫 About Me:
-🔭 I'm working on retail sector while i learn programming<br>🌱 I’m currently learning CSS, HTML and Javascript (Alura)<br>💬 experienced in sales, leadership, teamwork and <br>      work under pressure<br>
+# 💫 Sobre mim:
+Olá me chamo Gabriel Setznagl tenho 23 anos e trabalho no ramo de varejo enquanto curso capacitações relacionadas a área de tecnologia pela Alura para
+complementar os conhecimentos de minha graduação em andamento(Engenharia de Software). Neste repositório você poderá conferir todos os projetos que desenvolvi para critério de estudo, sendo grande parte deles nas formações da Alura e alguns para testes pessoais.
+Atualmente possuo conhecimentos em: HTML5, CSS e Javascript.
 
 
-## 🌐 Socials:
+## 🌐 Social Media:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/gabriel-setznagl/) 
 
 # 💻 Tech Stack:
@@ -10,12 +12,9 @@
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Setznagl&theme=material-palenight&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Setznagl&theme=material-palenight&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Setznagl&theme=material-palenight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
+![]([https://github-readme-stats.vercel.app/api/top-langs/?username=Setznagl&theme=material-palenight&hide_border=false&include_all_commits=false&count_private=false&layout=compact](https://github-readme-stats.vercel.app/api/top-langs/?username=Setznagl&theme=material-palenight&hide_border=false&include_all_commits=false&count_private=false&layout=compact))
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Setznagl&theme=dracula&no-frame=false&no-bg=true&margin-w=4)
-
 ---
 [![](https://visitcount.itsvg.in/api?id=Setznagl&icon=2&color=0)](https://visitcount.itsvg.in)
-
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
