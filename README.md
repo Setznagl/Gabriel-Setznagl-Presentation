@@ -4,7 +4,7 @@ complementar os conhecimentos de minha graduação em andamento(Engenharia de So
 Atualmente possuo conhecimentos em: HTML5, CSS e Javascript.
 
 
-## 🌐 Socials:
+## 🌐 Social Media:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/gabriel-setznagl/) 
 
 # 💻 Tech Stack:
