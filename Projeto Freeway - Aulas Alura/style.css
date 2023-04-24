@@ -5,3 +5,22 @@ html, body {
 canvas {
   display: block;
 }
+.container__botao{
+  width: 600px;
+  text-align: center;
+  background-color: gray;
+  border: 1px solid black;
+}
+.texto{
+  font-size: 2rem;
+  color: rgba(124, 82, 48, 0.897);
+  border: 2px solid rgba(230, 190, 157, 0.897);
+  background-color: azure;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.texto.js {
+  margin: 1rem 10rem;
+  color: rgb(177, 177, 61);
+  border: 2px solid rgb(238, 238, 151);
+}

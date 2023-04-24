@@ -6,23 +6,21 @@ canvas {
   display: block;
 }
 .container__botao{
-  display: inline-block;
+  width: 600px;
   text-align: center;
-  margin-top: 2.5rem;
-  margin-left: 8rem;
+  background-color: gray;
+  border: 1px solid black;
 }
 .texto{
-  margin-top: 3rem;
   font-size: 2rem;
   color: rgba(124, 82, 48, 0.897);
-  padding: 1em;
   border: 2px solid rgba(230, 190, 157, 0.897);
   background-color: azure;
   text-decoration: none;
   text-transform: uppercase;
 }
 .texto.js {
-  margin-top: 2.5rem;
+  margin: 1rem 10rem;
   color: rgb(177, 177, 61);
   border: 2px solid rgb(238, 238, 151);
 }
