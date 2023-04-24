@@ -1,5 +1,7 @@
-# 💫 About Me:
-🔭 I'm working on retail sector while i learn programming<br>🌱 I’m currently learning CSS, HTML and Javascript (Alura)<br>💬 experienced in sales, leadership, teamwork and <br>      work under pressure<br>
+# 💫 Sobre mim:
+Olá me chamo Gabriel Setznagl tenho 23 anos e trabalho no ramo de varejo enquanto curso capacitações relacionadas a área de tecnologia pela Alura para
+complementar os conhecimentos de minha graduação em andamento(Engenharia de Software). Neste repositório você poderá conferir todos os projetos que desenvolvi para critério de estudo, sendo grande parte deles nas formações da Alura e alguns para testes pessoais.
+Atualmente possuo conhecimentos em: HTML5, CSS e Javascript.
 
 
 ## 🌐 Socials:
