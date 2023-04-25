@@ -6,7 +6,7 @@ Olá me chamo Gabriel Setznagl tenho 23 anos e trabalho no ramo de varejo enquan
 | -------------  | --- |
 | :sparkles: Nome        | **Alura-Lessons**
 | :label: Tecnologias | javascript, html5, css3
-| :rocket: URL         | https://url-deploy.com.br
+| :rocket: URL         | https://alura-lessons.vercel.app/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![Screenshot](Assets/T-bg.png#vitrinedev)
