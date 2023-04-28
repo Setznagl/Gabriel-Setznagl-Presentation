@@ -69,8 +69,7 @@ h1 {
 .container__botao{
   width: 600px;
   text-align: center;
-  background-color: gray;
-  border: 1px solid black;
+  background-color: transparent;
   padding: 1rem 0.5rem;
   margin-bottom: 1.2rem
 }.texto{
@@ -80,4 +79,5 @@ h1 {
   background-color: azure;
   text-decoration: none;
   text-transform: uppercase;
+  padding: 0.2rem;
 }

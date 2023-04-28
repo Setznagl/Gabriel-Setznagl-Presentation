@@ -1,6 +1,8 @@
+@import url(/AluraBooks/Styles/header.css);
+
 :root{
   --cor-de-fundo: #EBECEE;
-  --cor: 
+  --branco:#ffffff;
 }
 
 body{

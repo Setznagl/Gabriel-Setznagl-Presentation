@@ -1,0 +1,33 @@
+.cabecalho__menu__hamburguer{
+    width: 24px;
+    height: 24px;
+    background-image: url(/AluraBooks/Assets/Menu.svg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 0.5em;
+}
+
+.cabecalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__container{
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem{
+    padding: 1em;
+}
+
+.lista-menu{
+    display: none;
+}
+
+.container__botao:checked ~ .lista-menu{
+    display: block;
+}
