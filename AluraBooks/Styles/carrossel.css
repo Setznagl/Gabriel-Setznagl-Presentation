@@ -9,6 +9,23 @@
 }
 
 .swiper {
-    width: 600px;
-    height: 300px;
+    width: 100vw;
+    height: 26vh;
   }
+.swiper-slide img {
+    width: 100%;
+}
+.swiper-button-prev{
+    display: none;
+}
+.swiper-button-next{
+    display: none;
+}
+.swiper-pagination{
+    position: initial;
+    margin: 0.5em 0;
+}
+.swiper-scrollbar{
+    display: none;
+}
+/* https://swiperjs.com/swiper-api#css-styles */
