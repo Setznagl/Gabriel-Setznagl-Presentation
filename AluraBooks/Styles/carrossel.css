@@ -29,3 +29,7 @@
     display: none;
 }
 /* https://swiperjs.com/swiper-api#css-styles */
+
+.card__container-content{
+    display: flex;
+}

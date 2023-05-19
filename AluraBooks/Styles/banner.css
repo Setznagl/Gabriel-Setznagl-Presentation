@@ -31,16 +31,4 @@
     background: url(../Assets/Pesquisa.svg);
     background-repeat: no-repeat;
     background-position: 0.4em;
-=======
-    margin: 0 auto;
-}
-
-.banner__texto{
-    font-weight: 500;
-    margin: 1em auto;
-}
-
-.banner__pesquisa{
-    color: var(--preto);
->>>>>>> 0d0166f9d1ac47a4d6b1e5de5febff25160fe03f
 }
