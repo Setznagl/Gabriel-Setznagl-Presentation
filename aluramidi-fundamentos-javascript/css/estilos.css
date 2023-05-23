@@ -67,17 +67,38 @@ h1 {
 }
 
 .container__botao{
-  width: 600px;
+  width: 400px;
   text-align: center;
   background-color: transparent;
   padding: 1rem 0.5rem;
   margin-bottom: 1.2rem
 }.texto{
-  font-size: 3rem;
+  font-size: 2rem;
   color: rgba(124, 82, 48, 0.897);
   border: 2px solid rgba(230, 190, 157, 0.897);
   background-color: azure;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 0.2rem;
+  padding: 0.4em;
+}
+
+@media screen and (max-width: 500px){
+  .texto{
+    font-size: 1.5rem;
+  }
+  .teclado {
+    gap: 5px;
+    padding: 5px;
+  }
+  .tecla {
+    height: 80px;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 80px;
+    text-align: center;
+    width: 80px;
+  }
+  .container__botao{
+    width: 50vw;
+  }
 }
