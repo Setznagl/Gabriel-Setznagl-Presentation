@@ -32,4 +32,5 @@
 
 .card__container-content{
     display: flex;
+    justify-content: space-between;
 }
