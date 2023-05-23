@@ -9,4 +9,4 @@ Olá me chamo Gabriel Setznagl tenho 23 anos e trabalho no ramo de varejo enquan
 | :rocket: URL         | https://alura-lessons.vercel.app/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![Screenshot](T-bg.png)
+![Screenshot](T-bg.png#vitrinedev)
