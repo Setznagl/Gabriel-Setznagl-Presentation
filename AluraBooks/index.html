@@ -79,12 +79,11 @@
             <!-- If we need scrollbar -->
             <div class="swiper-scrollbar"></div>
         </div>
-        
         <div class="card__container">
             <!-- 1,ra linha -->
-            <div class="card__container-content">
+            <div class="card__description">
                 <!-- 1,ra coluna -->
-                <div class="descricao">
+                <div class="card__description__text-items">
                     <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
                     <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
                     <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
@@ -92,8 +91,81 @@
                 <!-- 2,ra coluna -->
                 <img src="../AluraBooks/Assets/Angular-card.svg" class="descricao__imagem">
             </div>
+
+            <div class="card__botoes">
+                <!-- primeira coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="/AluraBooks/Assets/Frame 145.svg" alt="favoritar livro"></li>
+                    <li class="botoes__item"><img src="/AluraBooks/Assets/Frame 98.svg" alt="adicionar ao carrinho o livro"></li>
+                </ul>
+                <!-- segunda coluna -->
+                <a href="#" class="botoes__ancora">Saiba Mais</a>
+            </div>
         </div>   
-         
+    </section>
+
+<!-- segunda section com carrossel integrado, reaproveitando código de acordo com a prototipagem -->
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais Vendidos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="Assets/SL07.svg"></div>
+            <div class="swiper-slide"><img src="Assets/SL08.svg"></div>
+            <div class="swiper-slide"><img src="Assets/SL09.svg"></div>
+            <div class="swiper-slide"><img src="Assets/SL10.svg"></div>
+            <div class="swiper-slide"><img src="Assets/SL11.svg"></div>
+            <div class="swiper-slide"><img src="Assets/SL01.svg"></div>
+            ...
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <div class="card__container">
+            <!-- 1,ra linha -->
+            <div class="card__description">
+                <!-- 1,ra coluna -->
+                <div class="card__description__text-items">
+                    <h3 class="descricao__titulo">&starf;   &starf;   &starf;   &starf;   &starf;<br>Autora do Mês</h3>
+                    <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                </div>
+                <!-- 2,ra coluna -->
+                <img src="../AluraBooks/Assets/Perfil-escritora 1.svg" class="descricao__imagem">
+            </div>
+
+            <div class="card__botoes">
+                <!-- primeira coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="/AluraBooks/Assets/Frame 145.svg" alt="favoritar livro"></li>
+                    <li class="botoes__item"><img src="/AluraBooks/Assets/Frame 98.svg" alt="adicionar ao carrinho o livro"></li>
+                </ul>
+                <!-- segunda coluna -->
+                <a href="#" class="botoes__ancora">Saiba Mais</a>
+            </div>
+        </div>   
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item"><a href="#" class="topicos__link">Android</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Marketing Digital</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Agile</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Startups</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">HTML & CSS</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Python</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">OO</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Java</a></li>
+        </ul>
     </section>
 
 	<footer></footer>
