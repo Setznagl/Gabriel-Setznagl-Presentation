@@ -1,6 +1,9 @@
 @import url(/AluraBooks/Styles/header.css);
 @import url(/AluraBooks/Styles/banner.css);
 @import url(/AluraBooks/Styles/carrossel.css);
+@import url(/AluraBooks/Styles/topicos.css);
+@import url(/AluraBooks/Styles/contato.css);
+@import url(/AluraBooks/Styles/rodape.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 :root{
