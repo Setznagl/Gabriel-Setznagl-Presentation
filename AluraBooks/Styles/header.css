@@ -48,6 +48,10 @@
 }
 
 .container__imagem{
-    padding: 1em;
+    padding: 1em 0.2em;
+}
+
+.leave__icon{
+    margin-left: 0.6em;
 }
 
