@@ -21,7 +21,12 @@
     display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: 0.5em;
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
+.header__image--logo{
+    margin-left: 0.8em;
 }
 
 .lista-menu{
@@ -55,7 +60,47 @@
     margin-left: 0.6em;
 }
 
-@media screen and (min-width: 1024px) {
+.container__imagem--alurabooks{
+    display: none;
+}
 
+.opcoes{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho{
+        justify-content: space-evenly;
+    }
+    .container__imagem--alurabooks
+    {
+    display: block;
+    }
+
+    .opcoes{
+        display: flex;
+    }
+
+    .opcoes__item{
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+
+    .imagem__transparente{
+        display: none;
+    }
+
+    .cabecalho__menu__hamburguer{
+        display: none;
+    }
+
+    .opcoes__botao:checked ~ .lista-menu{
+        display: block;
+        width: auto;
+    }
+
+    .opcoes__botao{
+        display: none;
+    }
 }
 
