@@ -71,6 +71,29 @@
     display: none;
 }
 
+.container__botao:checked~.cabecalho__menu__hamburguer__moldura>.cabecalho__menu__hamburguer{
+    background: url(/AluraBooks/Assets/menu-2.svg);
+}
+.container__botao:checked~.cabecalho__menu__hamburguer__moldura{
+    background: var(--cor-azul-degrade);
+}
+.opcoes__botao:checked~.opcoes__item__moldura{
+    background: var(--cor-azul-degrade);
+    padding: 1em 1em;
+}
+.opcoes__botao:checked~.opcoes__item__moldura>.opcoes__item{
+    -webkit-text-fill-color: var(--branco);
+}
+.opcoes__botao:checked~.opcoes__item{
+    padding: 1em 1em;
+}
+.lista-menu__item:hover{
+    background: var(--cor-azul-degrade);
+}
+.lista-menu__item:hover>.lista-menu__link{
+    -webkit-text-fill-color: var(--branco);
+}
+
 @media screen and (min-width: 1024px) {
     .cabecalho{
         justify-content: space-evenly;
@@ -105,6 +128,14 @@
     .opcoes__botao{
         display: none;
     }
+    .lista-menu{
+        top: 100%;
+        margin-top: -1.1em;
+    }
+    .lista-menu__item{
+        width: 18vw;
+    }
+        
 }
 
 @media screen and (min-width: 1728px){
