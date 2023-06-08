@@ -1,0 +1,45 @@
+.header__container{
+    /**/border: var(--production-border);
+    background-color: var(--sec-color-02);
+}
+
+.flexbox__container{
+    background-color: var(--p-color-01);
+}
+
+.nav__container{
+    /*border: var(--production-border);*/
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3em 0;
+}
+
+.duolingo__logo{
+    width: 6.25em;
+    height: 6.25em;
+} #duolingo__logo__box{
+    margin-left: 0.7em;
+    border: #e56464 solid 0.05em;
+    border-radius: 4px;
+    background-color: #e56464;
+    }
+
+.nav__text__container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.nav__text:nth-child(2n-1) {
+    color: var(--sec-color-01);
+    font-size: 1.4rem;
+}
+.nav__text{
+    font-family: var(--primary-f-family);
+    font-weight: var(--relevant-font-weight);
+    margin-top: 0.3em;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width: px){
+
+}

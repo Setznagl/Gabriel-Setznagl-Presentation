@@ -6,47 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Z-Home/Styles/reset.css">
     <link rel="stylesheet" href="Z-Home/Styles/style.css">
-    <title>carta de apresentacao</title>
+    <!--                         Swiper JS stylesheet                                   -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!--                         Swiper JS stylesheet                                   -->
+    <title>Gabriel Setznagl - Presentation</title>
 </head>
 <!--------------------------------------------------------------------------------------------->
-    <body>
-        <header class="container-nav">
-            <nav class="nav-panel">
-                <a class="nav-item" href="/index.html">Voltar ao Início</a>
-                <a href="Projeto Pong - Aulas Alura/index.html">Pong</a>
-				<a href="Projeto Freeway - Aulas Alura/index.html">Freeway</a>
-				<a href="/AluraBooks/index.html">AluraBooks</a>
-				<a href="aluramidi-fundamentos-javascript/index.html">Aluramidi Fundamentos JS</a>
-				<a href="Alura-Plus/index.html">Alura Plus</a>
-				<a href=""></a>
-				<a href=""></a>
-				<a href="">asa</a>
-            </nav>
-        </header>
+<body>
+    <header class="header__container">
+        <nav class="nav__container flexbox__container">
+            <div class="just__transform__to__flexbox-container">
+                <span id="duolingo__logo__box">
+                    <img class="duolingo__logo" src="/Z-Home/Assets/D-logo.svg" alt="Desenvolvedor em formação Gabriel Setznagl em desenho cartoon">
+                </span>
+            </div>
+            <div class="just__transform__to__flexbox-container nav__text__container">
+                <p class="nav__text">Gabriel Setznagl</p>
+                <p class="nav__text">I'm attending Front-End classes</p>
+            </div>
+        </nav>
+    </header>
 <!--------------------------------------------------------------------------------------------->
-            <main class="principal">
-                <section class="principal__section">
-                        <p class="principal__section_text">
-                            Gabriel Setznagl, 23 anos natural de Botucatu-SP.
-                            Aspirante ao mercado de programação front-end e todo o universo de tecnologias que o 
-                            mesmo pode proporcionar.
-                        </p>
-                        <div class="principal__section_sc">
-                            <a class="principal__section__scitem" href="https://www.linkedin.com/in/gabriel-setznagl/">
-                                <img src="Assets/linkedin.png"> Linkedin</a>
-                            <a class="principal__section__scitem" href="https://github.com/Setznagl">
-                                    <img src="Assets/github.png"> Github</a>
-                            <a class="principal__section__scitem" href="https://cursos.alura.com.br/user/gabriel-setznagl">
-                                    <img src="Assets/course.png"> Alura</a>
-                        </div>              
-                </section>
-                <img id="principal__figure" src="Assets/LAV.jpeg"
-                 alt="Ilustração do Gabriel, aspirante a programador front end">
-            </main>
+    <main>
+
+    </main>
 <!--------------------------------------------------------------------------------------------->
-        <footer class="container-footer"></footer>
-            <p class="footer-text">Página teste com base nas aulas da Alura</p>
-        </footer>
+    <footer>
+
+    </footer>
 <!--------------------------------------------------------------------------------------------->
-    </body>
+    <!--                         Swiper JS script                                 -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script> 
+</body>
 </html>
