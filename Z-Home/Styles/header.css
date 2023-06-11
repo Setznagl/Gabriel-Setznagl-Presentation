@@ -1,5 +1,6 @@
 .header__container{
-    /**/border: var(--production-border);
+    position: relative; /* Elemento mestre dos containers é o relativo */
+    height: 100%;
     background-color: var(--sec-color-02);
 }
 
@@ -8,38 +9,75 @@
 }
 
 .nav__container{
-    /*border: var(--production-border);*/
     align-items: center;
-    justify-content: space-between;
-    padding: 0.3em 0;
+    padding: 0.5em 0;
+}
+/* ------------------------------------------- */
+.nav__img__container{
+    width: 33.3%;
 }
 
 .duolingo__logo{
     width: 6.25em;
     height: 6.25em;
 } #duolingo__logo__box{
-    margin-left: 0.7em;
-    border: #e56464 solid 0.05em;
+    margin: 0 0.5em;
+    border: var(--sec-color-03) solid 0.05em;
     border-radius: 4px;
-    background-color: #e56464;
+    background-color: var(--sec-color-03);
     }
 
 .nav__text__container{
+    width: 56.6%;
+    margin: 0 5px;
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-flow: row wrap;
 }
 .nav__text:nth-child(2n-1) {
     color: var(--sec-color-01);
-    font-size: 1.4rem;
+    font-size: 1.35em;
 }
 .nav__text{
     font-family: var(--primary-f-family);
     font-weight: var(--relevant-font-weight);
-    margin-top: 0.3em;
-    font-size: 0.8rem;
+    margin-top: 0.5em;
+    font-size: 0.7em;
 }
 
-@media screen and (max-width: px){
+.nav__icons__container{
+    width: 10%;
+    margin-right: 2px;
+}
+
+.nav__icon__list{
+    display: none;
+    position: absolute;
+    background-color: var(--sec-color-02);
+    padding: 0.7em 0.3em;
+    border-radius: 1.5em;
+    flex-flow: column;
+}
+
+.nav__icon__item{
+    margin: 0 0 0.2em 0;
+    background-color: var(--sec-color-02);
+    border-radius: 0.1em;
+}
+.nav__icon__images{
+    width: 1.5em;
+}
+
+
+@media screen and (min-width: 720px){
+    .duolingo__logo{
+        width: 12.5em;
+        height: 12.5em;
+    }#duolingo__logo__box{
+        margin: 0 0 0 2em;
+        }
+}
+
+@media screen and (min-width: px){
 
 }

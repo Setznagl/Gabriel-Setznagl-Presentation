@@ -7,6 +7,7 @@
   --p-color-02: #2B2A4C;
   --sec-color-01: #B31312;
   --sec-color-02: #EA906C;
+  --sec-color-03: #e56464;
   --primary-f-size: 16px;
   --primary-f-family: "Raleway";
   --secondary-f-family: "Barlow Condensed";
@@ -26,10 +27,12 @@
 }   
 
 .just__transform__to__flexbox-container{
+    box-sizing: border-box;
     display: flex;
 }
 
 .flexbox__container{
+    box-sizing: border-box;
     display: flex;
     width: var(--primary-container-width);
     margin: 0 auto;

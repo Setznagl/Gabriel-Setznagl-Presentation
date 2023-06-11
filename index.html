@@ -15,14 +15,44 @@
 <body>
     <header class="header__container">
         <nav class="nav__container flexbox__container">
-            <div class="just__transform__to__flexbox-container">
+            
+
+            <div class="just__transform__to__flexbox-container nav__img__container">
                 <span id="duolingo__logo__box">
                     <img class="duolingo__logo" src="/Z-Home/Assets/D-logo.svg" alt="Desenvolvedor em formação Gabriel Setznagl em desenho cartoon">
                 </span>
             </div>
+
+
             <div class="just__transform__to__flexbox-container nav__text__container">
                 <p class="nav__text">Gabriel Setznagl</p>
                 <p class="nav__text">I'm attending Front-End classes</p>
+            </div>
+
+             <!-- Menu Hamburguer -->
+             <input type="checkbox" id="menu" class="nav__menu-hamburguer__container">
+                <label for="menu" class="nav__menu-hamburguer__moldura">
+                    <span class="nav__menu-hamburguer__imagem"></span>
+                </label>
+             </input>
+
+            <div class="just__transform__to__flexbox-container nav__icons__container">
+                <ul class="nav__icon__list">
+                    <li class="nav__icon__item">
+                        <a href="https://github.com/Setznagl" class="nav__icon__link"><img class="nav__icon__images" src="/Z-Home/Assets/github-icon.svg" alt="Logo com link para perfil do github"></a>
+                    </li>
+                    <li class="nav__icon__item">
+                        <a href="https://www.linkedin.com/in/gabriel-setznagl/" class="nav__icon__link"><img class="nav__icon__images" src="/Z-Home/Assets/linkedin-icon.svg" alt="Logo com link para perfil do linkedin"></a>
+                    </li>
+                    <li class="nav__icon__item">
+                        <a href="https://cursos.alura.com.br/user/gabriel-setznagl" class="nav__icon__link"><img class="nav__icon__images" src="/Z-Home/Assets/certificate-icon.svg" alt="Logo com link para perfil Alura com
+                            relatório de todos os cursos concluídos"></a>
+                    </li>
+                    <li class="nav__icon__item">
+                        <a href="#" class="nav__icon__link"><img class="nav__icon__images" src="/Z-Home/Assets/cv-icon.svg" alt="Logo com link para currículo pessoal"></a>
+                    </li>
+                    
+                </ul>
             </div>
         </nav>
     </header>
