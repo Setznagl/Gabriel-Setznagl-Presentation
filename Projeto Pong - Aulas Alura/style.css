@@ -1,3 +1,6 @@
+:root{
+  --p-color-01: #EEE2DE;
+}
 html, body {
   margin: 0;
   padding: 0;
@@ -6,7 +9,7 @@ canvas {
   display: block;
 }
 .container__botao{
-  width: 600px;
+  width: 100vw;
   text-align: center;
   background-color: gray;
   border: 1px solid black;
@@ -20,7 +23,14 @@ canvas {
   text-transform: uppercase;
 }
 .texto.js {
-  margin: 1rem 10rem;
+  margin: 1rem 35%;
   color: rgb(177, 177, 61);
   border: 2px solid rgb(238, 238, 151);
+}
+
+#main__container{
+  background-color: var(--p-color-01);
+  width: 100vw;
+  height: 80vw;
+  margin: 0 auto;
 }
