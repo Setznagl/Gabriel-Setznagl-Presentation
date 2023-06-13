@@ -1,23 +1,27 @@
 @keyframes showmenu-sentido-horario {
     from{
         left: 100vw;
+        opacity: 0;
     }
     to{
         left: 89.7vw;
+        opacity: 1;
     }
 }
 
 @keyframes showmenu-sentido-antihorario {
     from{
         left: 89.7vw;
+        opacity: 1;
     }
     to{
         left: 100vw;
+        opacity: 0;
     }
 }
 
 
-.header__container{
+.header__container,.main__container{
     position: relative; /* Elemento mestre dos containers é o relativo */
     height: 100%;
     width: 100vw;
@@ -88,6 +92,7 @@
     font-size: 1.35em;
 }
 .nav__text{
+    color: var(--p-color-02);
     font-family: var(--primary-f-family);
     font-weight: var(--relevant-font-weight);
     margin-top: 0.5em;
@@ -106,10 +111,10 @@
     width: 1.5em;
     display: flex;
     position: absolute;
-    top: -3%;
+    top: 0%;
     left: 100vw;
     background-color: var(--sec-color-02);
-    padding: 0.7em 0.3em;
+    padding: 0.36em 0.36em;
     border-radius: 1.5em;
     flex-flow: column;
 }
@@ -120,7 +125,7 @@
     border-radius: 0.1em;
 }
 .nav__icon__images{
-    width: 1.5em;
+    width: 1.25em;
 }
 
 
