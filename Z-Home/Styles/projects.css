@@ -46,11 +46,11 @@
 
 .swiper-pagination{
     position: initial;
-    margin-bottom: 37.5%;
+    margin-bottom: 38%;
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active{
-    background-color: var(--p-color-01);
+    background-color: var(--p-color-02);
 }
 
 .swiper-scrollbar{

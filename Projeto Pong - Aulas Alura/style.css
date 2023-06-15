@@ -23,14 +23,19 @@ canvas {
   text-transform: uppercase;
 }
 .texto.js {
-  margin: 1rem 35%;
+  display: inline-block;
+  padding: 0.15em;
+  margin-top: 0;
   color: rgb(177, 177, 61);
   border: 2px solid rgb(238, 238, 151);
 }
 
 #main__container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   background-color: var(--p-color-01);
   width: 100vw;
-  height: 80vw;
+  height: 100%;
   margin: 0 auto;
 }

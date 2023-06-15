@@ -45,7 +45,7 @@
     width: 100%;
 } #duolingo__logo__box{
     margin: 0 1.5vw;
-    border: var(--sec-color-03) solid 0.05em;
+    border: var(--sec-color-02) solid 0.1em;
     border-radius: 4px;
     background-color: var(--sec-color-03);
     }
@@ -67,6 +67,7 @@
 .nav__menu-hamburguer__moldura{
     background-color: var(--sec-color-03);
     padding: 1.5%;
+    border: 0.1em solid var(--sec-color-02);
     border-radius: 1em;
 }
 
@@ -125,7 +126,7 @@
     border-radius: 0.1em;
 }
 .nav__icon__images{
-    width: 1.25em;
+    width: 1.9em;
 }
 
 

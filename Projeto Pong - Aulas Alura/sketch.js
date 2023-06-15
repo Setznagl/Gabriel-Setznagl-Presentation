@@ -60,6 +60,3 @@ function placar(){
   textAlign(CENTER); textSize(30); fill(255);
   text(pontosR1, 228, 45) ; text(pontosR2, 371, 45);}
 function ponto(x){xB=x ;vxB *= -1; vyB *=-1}
-
-console.log(window.innerWidth);
-console.log(window.innerHeight);

@@ -4,11 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
 
 :root{
-  --p-color-01: #EEE2DE;
-  --p-color-02: #2B2A4C;
-  --sec-color-01: #B31312;
-  --sec-color-02: #EA906C;
-  --sec-color-03: #e56464;
+  --p-color-01: #F5EFE7;
+  --p-color-02: #213555;
+  --sec-color-01: #4F709C;
+  --sec-color-02: #D8C4B6;
+  --sec-color-03: #e5e5e5;
   --primary-f-size: 16px;
   --primary-f-family: "Raleway";
   --secondary-f-family: "Barlow Condensed";
