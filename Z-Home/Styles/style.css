@@ -1,5 +1,6 @@
 @import url(/Z-Home/Styles/header.css);
 @import url(/Z-Home/Styles/projects.css);
+@import url(/Z-Home/Styles/expertises.css);
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
 
@@ -45,3 +46,11 @@
     width: var(--primary-container-width);
     margin: 0 auto;
 }
+
+.header__container,.main__container{
+    position: relative; /* Elemento mestre dos containers é o relativo */
+    height: 100%;
+    width: 100vw;
+    background-color: var(--sec-color-02);
+}
+

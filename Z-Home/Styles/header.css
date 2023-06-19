@@ -20,14 +20,6 @@
     }
 }
 
-
-.header__container,.main__container{
-    position: relative; /* Elemento mestre dos containers é o relativo */
-    height: 100%;
-    width: 100vw;
-    background-color: var(--sec-color-02);
-}
-
 .flexbox__container{
     background-color: var(--p-color-01);
 }
@@ -85,8 +77,9 @@
     width: 57.6vw;
     margin: 0 1vw;
     display: flex;
+    flex-flow: column nowrap;
     align-items: center;
-    flex-flow: row wrap;
+    white-space: nowrap;
 }
 .nav__text:nth-child(2n-1) {
     color: var(--sec-color-01);
@@ -101,7 +94,7 @@
 }
 
 .nav__icons__container{
-    width: 7vw;
+    width: 6.2vw;
     margin-right: 1%;
 }
 
@@ -112,12 +105,13 @@
     width: 1.5em;
     display: flex;
     position: absolute;
-    top: 0%;
+    top: -3%;
     left: 100vw;
     background-color: var(--sec-color-02);
     padding: 0.36em 0.36em;
     border-radius: 1.5em;
     flex-flow: column;
+    overflow: hidden;
 }
 
 .nav__icon__item{

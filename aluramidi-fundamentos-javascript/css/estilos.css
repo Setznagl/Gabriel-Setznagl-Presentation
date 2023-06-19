@@ -3,54 +3,32 @@
   --vermelha: #e93d50;
   --vermelha-escura: #af303f;
   --branca: #fff;
-  --luz: rgb(229, 255, 0);
+  --luz: #ffdabf;;
+  --p-color-01: #F5EFE7;
+  --p-color-02: #213555;
+  --sec-color-01: #4F709C;
+  --sec-color-02: #D8C4B6;
+  --sec-color-03: #e5e5e5;
 }
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+  background-color: var(--p-color-01);
   display: flex;
-  justify-content: center;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
 }
 
 h1 {
-  color: var(--branca);
-  margin-bottom: 20px;
-  font-size: 2rem;
-}
-
-.teclado {
-  background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
-  box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
-  border-radius: 30px;
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 10px;
-}
-
-.tecla {
-  background-color: var(--branca);
-  border-radius: 30px;
-  box-shadow: 3px 3px 0 var(--cinza);
-  color: var(--vermelha);
-  cursor: pointer;
-  height: 120px;
-  font-size: 1.75em;
-  font-weight: bold;
-  line-height: 120px;
-  text-align: center;
-  width: 120px;
+  display: block;
 }
 
 .tecla.ativa,
 .tecla:active {
-  background-color: var(--vermelha);
-  border: 4px solid  var(--vermelha);
-  box-shadow: 3px 3px 0 var(--vermelha-escura) inset;
+  background-color: var(--sec-color-01);
+  border: 4px solid  var(--sec-color-01);
+  box-shadow: 3px 3px 0 var(--p-color-02) inset;
   color: var(--branca);
   outline: none;
 }
@@ -63,42 +41,93 @@ h1 {
 
 .tecla.active:focus,
 .tecla:active:focus {
-  box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
+  box-shadow: 3px 3px 0 var(--p-color-02) inset, 1px 1px 10px var(--luz);
 }
 
-.container__botao{
-  width: 400px;
-  text-align: center;
-  background-color: transparent;
-  padding: 1rem 0.5rem;
-  margin-bottom: 1.2rem
-}.texto{
-  font-size: 2rem;
-  color: rgba(124, 82, 48, 0.897);
-  border: 2px solid rgba(230, 190, 157, 0.897);
-  background-color: azure;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 0.4em;
-}
-
-@media screen and (max-width: 500px){
+@media screen and (min-width: 678px){
   .texto{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    border: solid 0.1em var(--sec-color-01);
+    color: var(--p-color-02);
+    margin-bottom: 0.25em;
   }
+
   .teclado {
-    gap: 5px;
-    padding: 5px;
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+    box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+    border-radius: 30px;
+    display: grid;
+    width: 60%;
+    height: 100%;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
   }
   .tecla {
-    height: 80px;
+    background-color: var(--branca);
+    border-radius: 1em;
+    box-shadow: 3px 3px 0 var(--cinza);
+    color: var(--sec-color-01);
+    cursor: pointer;
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+    width: 15vw;
+    height: 8vh;
     font-size: 1.5em;
     font-weight: bold;
-    line-height: 80px;
     text-align: center;
-    width: 80px;
   }
   .container__botao{
+    margin-top: 4%;
+    background-color: var(--p-color-01);
     width: 50vw;
+    text-align: center;
+  }
+  .texto-volta{
+    background-color: var(--luz);
+  }
+}
+
+@media screen and (max-width: 678px){
+  .texto{
+    font-size: 2rem;
+    border: solid 0.1em var(--sec-color-01);
+    color: var(--p-color-02);
+    margin-bottom: 0.25em;
+  }
+
+  .teclado {
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+    box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+    border-radius: 30px;
+    display: grid;
+    width: 85vw;
+    height: 100%;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+  }
+  .tecla {
+    background-color: var(--branca);
+    border-radius: 1em;
+    box-shadow: 3px 3px 0 var(--cinza);
+    color: var(--sec-color-01);
+    cursor: pointer;
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+    height: 3.5em;
+    width: 25vw;
+    font-weight: bold;
+    text-align: center;
+  }
+  .container__botao{
+    background-color: var(--p-color-01);
+    width: 50vw;
+    text-align: center;
+  }
+  .texto-volta{
+    background-color: var(--luz);
   }
 }
