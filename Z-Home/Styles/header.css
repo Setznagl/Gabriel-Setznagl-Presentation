@@ -19,50 +19,65 @@
         opacity: 0;
     }
 }
-
-.flexbox__container{
-    background-color: var(--p-color-01);
-}
-
+/* ------------------------------------------- */
 .nav__container{
     align-items: center;
     padding: 0.5em 0;
 }
 /* ------------------------------------------- */
 .nav__img__container{
-    width: 33.3vw;
-}
-
-.duolingo__logo{
-    width: 100%;
-} #duolingo__logo__box{
-    margin: 0 1.5vw;
-    border: var(--sec-color-02) solid 0.1em;
-    border-radius: 4px;
-    background-color: var(--sec-color-03);
+    display: flex;
+    flex: 1 1 33.3%;}
+    .duolingo__logo{
+        width: 100%;
+        } #duolingo__logo__box{
+        margin: 0 1.5vw;
+        border: var(--sec-color-02) solid 0.1em;
+        border-radius: 4px;
+        background-color: var(--sec-color-03);
+        }
+/* ------------------------------------------- */
+.nav__text__container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    white-space: nowrap;
+    flex: 1 1 57.6%;
+    margin: 0 1vw;
+}.nav__text:nth-child(2n-1) {
+        color: var(--sec-color-01);
+        font-size: 1.35em;
     }
+    .nav__text{
+        color: var(--p-color-02);
+        font-family: var(--primary-f-family);
+        font-weight: var(--relevant-font-weight);
+        margin-top: 0.5em;
+        font-size: 0.7em;
+    }
+/* ------------------------------------------- */
 
+/* Interação com o menu */
 .nav__menu-hamburguer__input{
     display: none;
-}
-/* Interação com o menu */
-.nav__menu-hamburguer__input:checked ~ .nav__icons__container > .nav__icon__list{
+/* ------------------------------------------- */ 
+}.nav__menu-hamburguer__input:checked ~ .nav__icons__container > .nav__icon__list{
     display: flex;
     animation-name: showmenu-sentido-horario;
     animation-duration: 0.6s;
     animation-fill-mode: forwards;
-}
-.nav__menu-hamburguer__input:checked ~ .nav__menu-hamburguer__moldura > .nav__menu-hamburguer__imagem{
-    background-image: url(/Z-Home/Assets/menu-open-icon.svg);
-}
-/* --------------------- */
+    }
+    .nav__menu-hamburguer__input:checked ~ .nav__menu-hamburguer__moldura > .nav__menu-hamburguer__imagem{
+        background-image: url(/Z-Home/Assets/menu-open-icon.svg);
+        }
+/* ------------------------------------------- */
 .nav__menu-hamburguer__moldura{
     background-color: var(--sec-color-03);
     padding: 1.5%;
     border: 0.1em solid var(--sec-color-02);
     border-radius: 1em;
 }
-
 .nav__menu-hamburguer__imagem{
     background-image: url(/Z-Home/Assets/menu-icon.svg);
     height: 2em;
@@ -72,32 +87,12 @@
     background-position: center;
     transition: 0.5s;
 }
-
-.nav__text__container{
-    width: 57.6vw;
-    margin: 0 1vw;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    white-space: nowrap;
-}
-.nav__text:nth-child(2n-1) {
-    color: var(--sec-color-01);
-    font-size: 1.35em;
-}
-.nav__text{
-    color: var(--p-color-02);
-    font-family: var(--primary-f-family);
-    font-weight: var(--relevant-font-weight);
-    margin-top: 0.5em;
-    font-size: 0.7em;
-}
-
+/* ------------------------------------------- */
 .nav__icons__container{
-    width: 6.2vw;
+    display: flex;
+    flex: 1 1 6.2vw;
     margin-right: 1%;
 }
-
 .nav__icon__list{
     animation-name: showmenu-sentido-antihorario;
     animation-duration: 0.6s;
@@ -113,7 +108,6 @@
     flex-flow: column;
     overflow: hidden;
 }
-
 .nav__icon__item{
     margin: 0 0 0.2em 0;
     background-color: var(--sec-color-02);
@@ -122,12 +116,54 @@
 .nav__icon__images{
     width: 1.9em;
 }
+/* ------------------------------------------- */
 
-
-@media screen and (min-width: px){
-   
+@media screen and (max-width: 320px){
+    .nav__text:nth-child(2n-1) {
+        font-size: 1em;
+    }
+    .nav__text{
+        margin-top: 0.2em;
+        font-size: 0.5em;
+    }
+    .nav__menu-hamburguer__moldura{
+        padding: 1.2%;
+        border-radius: 1em;
+    }
+    .nav__menu-hamburguer__imagem{
+        height: 1.8em;
+        width: 1.8em;
+    }
+    .nav__icon__list{
+        width: 1.5em;
+        top: 0%;
+    }
+    .nav__icon__images{
+        width: 1.4em;
+    }
 }
 
-@media screen and (min-width: px){
-
+@media screen and (min-width: 400px) and (max-width: 480px){
+    .nav__text:nth-child(2n-1) {
+        font-size: 1.6em;
+    }
+    .nav__text{
+        margin-top: 0.2em;
+        font-size: 0.8em;
+    }
+    .nav__menu-hamburguer__moldura{
+        padding: 1.75%;
+        border-radius: 1.3em;
+    }
+    .nav__menu-hamburguer__imagem{
+        height: 2.0em;
+        width: 2.0em;
+    }
+    .nav__icon__list{
+        width: 2em;
+        top: 0%;
+    }
+    .nav__icon__images{
+        width: 2.1em;
+    }
 }
