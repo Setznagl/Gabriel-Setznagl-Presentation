@@ -8,7 +8,6 @@
         opacity: 1;
     }
 }
-
 @keyframes showmenu-sentido-antihorario {
     from{
         left: 89.7vw;
@@ -43,7 +42,7 @@
     align-items: center;
     justify-content: space-around;
     white-space: nowrap;
-    flex: 1 1 57.6%;
+    width: 57.6%;
     margin: 0 1vw;
 }.nav__text:nth-child(2n-1) {
         color: var(--sec-color-01);
@@ -77,6 +76,7 @@
     padding: 1.5%;
     border: 0.1em solid var(--sec-color-02);
     border-radius: 1em;
+    flex: 1 2;
 }
 .nav__menu-hamburguer__imagem{
     background-image: url(/Z-Home/Assets/menu-icon.svg);
@@ -97,10 +97,9 @@
     animation-name: showmenu-sentido-antihorario;
     animation-duration: 0.6s;
     animation-fill-mode: forwards;
-    width: 1.5em;
     display: flex;
     position: absolute;
-    top: -3%;
+    top: 0%;
     left: 100vw;
     background-color: var(--sec-color-02);
     padding: 0.36em 0.36em;
@@ -114,11 +113,14 @@
     border-radius: 0.1em;
 }
 .nav__icon__images{
-    width: 1.9em;
+    width: 100%;
+    flex: 1 1;
+}
+.nav__text__container__icon-list-container{
+    display: none;
 }
 /* ------------------------------------------- */
-
-@media screen and (max-width: 320px){
+@media screen and (max-width: 350px){
     .nav__text:nth-child(2n-1) {
         font-size: 1em;
     }
@@ -134,36 +136,59 @@
         height: 1.8em;
         width: 1.8em;
     }
-    .nav__icon__list{
-        width: 1.5em;
-        top: 0%;
-    }
-    .nav__icon__images{
-        width: 1.4em;
-    }
 }
-
 @media screen and (min-width: 400px) and (max-width: 480px){
     .nav__text:nth-child(2n-1) {
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
     .nav__text{
         margin-top: 0.2em;
-        font-size: 0.8em;
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 900px){
+    .nav__text:nth-child(2n-1) {
+        font-size: 3.0em;
+    }
+    .nav__text{
+        margin-top: 0.5em;
+        font-size: 1.4em;
+        padding-left: 0.6em;
     }
     .nav__menu-hamburguer__moldura{
-        padding: 1.75%;
-        border-radius: 1.3em;
+        display: none;
     }
     .nav__menu-hamburguer__imagem{
-        height: 2.0em;
-        width: 2.0em;
+        display: none;
     }
     .nav__icon__list{
-        width: 2em;
-        top: 0%;
+        display: none;
     }
-    .nav__icon__images{
-        width: 2.1em;
+    .nav__menu-hamburguer__input:checked ~ .nav__icons__container > .nav__icon__list{
+        display: none;
     }
+/*-----------------------------------------------*/
+    .nav__text__container__icon-list-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 20%;
+        margin-top: 0.8em;
+        padding: 5px;
+        border-radius: 1.2em;
+        background-color: var(--sec-color-02);
+    }
+    .nav__text__container__icon-list-item{
+        margin: 0 auto;
+        width: 10%;
+    }
+    .nav__text__container__icon-list-text{
+        color: var(--p-color-02);
+        font-family: var(--secondary-f-family);
+        font-weight: var(--text-font-weight);
+        font-size: 1.1em;
+        margin: 0 1em 0 0;
+    }.nav__icon__link{text-decoration: none;}
 }
