@@ -18,7 +18,9 @@
         opacity: 0;
     }
 }
-/* ------------------------------------------- */
+/*----------------------------------------------
+Layout base projetado para 390x844
+ ------------------------------------------- */
 .nav__container{
     align-items: center;
     padding: 0.5em 0;
@@ -146,8 +148,7 @@
         font-size: 0.75em;
     }
 }
-
-@media screen and (min-width: 720px) and (max-width: 900px){
+@media screen and (min-width: 720px) and (max-width: 1279px){
     .nav__text:nth-child(2n-1) {
         font-size: 3.0em;
     }
@@ -190,5 +191,162 @@
         font-weight: var(--text-font-weight);
         font-size: 1.1em;
         margin: 0 1em 0 0;
+    }.nav__icon__link{text-decoration: none;}
+}
+@media screen and (min-width: 1280px) and (max-width: 1440px){
+    .nav__text:nth-child(2n-1) {
+        font-size: 4rem;
+    }
+    .nav__text{
+        margin-top: 0.1em;
+        font-size: 2.0rem;
+    }
+    .nav__menu-hamburguer__moldura{
+        display: none;
+    }
+    .nav__menu-hamburguer__imagem{
+        display: none;
+    }
+    .nav__icon__list{
+        display: none;
+    }
+    .nav__menu-hamburguer__input:checked ~ .nav__icons__container > .nav__icon__list{
+        display: none;
+    }
+/*-----------------------------------------------*/
+    .nav__text__container__icon-list-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 20%;
+        margin-top: 0.4em;
+        padding: 10px;
+        border-radius: 2.0em;
+        background-color: var(--sec-color-02);
+    }
+    .nav__text__container__icon-list-item{
+        margin: 0 auto;
+        width: 9%;
+    }
+    .nav__text__container__icon-list-text{
+        color: var(--p-color-02);
+        font-family: var(--secondary-f-family);
+        font-weight: var(--text-font-weight);
+        font-size: 2.0em;
+        margin: 0 0.2em 0 0;
+    }.nav__icon__link{text-decoration: none;}
+}
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+    #duolingo__logo__box{
+        flex-grow: 1;
+        max-width: 20vw;
+    }
+    .nav__img__container{
+        margin: 0 1.0em;
+    }
+    .nav__text__container{
+        margin-left: 1.0em;
+    }
+
+    .nav__text:nth-child(2n-1) {
+        font-size: 5.5em;
+        padding-left: 0.3em;
+    }
+    .nav__text{
+        margin-top: 0.1em;
+        font-size: 2.7em;
+        padding-left: 0.3em;
+    }
+    .nav__menu-hamburguer__moldura{
+        display: none;
+    }
+    .nav__menu-hamburguer__imagem{
+        display: none;
+    }
+    .nav__icon__list{
+        display: none;
+    }
+    .nav__menu-hamburguer__input:checked ~ .nav__icons__container > .nav__icon__list{
+        display: none;
+    }
+/*-----------------------------------------------*/
+    .nav__text__container__icon-list-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 20%;
+        margin-top: 1.2em;
+        padding: 15px;
+        border-radius: 2.5em;
+        background-color: var(--sec-color-02);
+    }
+    .nav__text__container__icon-list-item{
+        margin: 0 auto;
+        width: 10%;
+    }
+    .nav__text__container__icon-list-text{
+        color: var(--p-color-02);
+        font-family: var(--secondary-f-family);
+        font-weight: var(--text-font-weight);
+        font-size: 3.0em;
+        margin: 0 0.10em 0 0;
+    }.nav__icon__link{text-decoration: none;}
+}
+@media screen and (min-width: 1920px){
+    #duolingo__logo__box{
+        flex-grow: 1;
+        max-width: 25vw;
+    }
+    .nav__img__container{
+        margin: 0 1.0em;
+    }
+    .nav__text__container{
+        margin-left: 1.0em;
+    }
+    .nav__text:nth-child(2n-1) {
+        font-size: 6.5em;
+        padding-left: 0.05em;
+    }
+    .nav__text{
+        margin-top: 0.1em;
+        font-size: 3.25em;
+        padding-left: 0.05em;
+    }
+    .nav__menu-hamburguer__moldura{
+        display: none;
+    }
+    .nav__menu-hamburguer__imagem{
+        display: none;
+    }
+    .nav__icon__list{
+        display: none;
+    }
+    .nav__menu-hamburguer__input:checked ~ .nav__icons__container > .nav__icon__list{
+        display: none;
+    }
+/*-----------------------------------------------*/
+    .nav__text__container__icon-list-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 20%;
+        margin-top: 1.2em;
+        padding: 15px;
+        border-radius: 2.5em;
+        background-color: var(--sec-color-02);
+    }
+    .nav__text__container__icon-list-item{
+        margin: 0 auto;
+        width: 10%;
+    }
+    .nav__text__container__icon-list-text{
+        color: var(--p-color-02);
+        font-family: var(--secondary-f-family);
+        font-weight: var(--text-font-weight);
+        font-size: 3.0em;
+        margin: 0 0.10em 0 0;
     }.nav__icon__link{text-decoration: none;}
 }

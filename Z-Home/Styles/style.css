@@ -66,3 +66,13 @@
     }
 }
 
+@media screen and (min-width: 1024px){
+    .flexbox__container{
+        width: var(--desktop-container-width);
+    }
+    .block__container{
+        width: var(--desktop-container-width);
+    }
+}
+
+
