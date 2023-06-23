@@ -43,6 +43,14 @@
     background-color: var(--p-color-01);
 }
 
+.grid__container{
+    box-sizing: border-box;
+    display: grid;
+    width: var(--primary-container-width);
+    background-color: var(--p-color-01);
+    margin: 0 auto;
+}
+
 .block__container{
     box-sizing: border-box;
     display: block;
@@ -58,6 +66,9 @@
 }
 
 @media screen and (min-width: 720px){
+    .grid__container{
+        width: var(--tablet-container-width);
+    }
     .flexbox__container{
         width: var(--tablet-container-width);
     }
@@ -67,6 +78,9 @@
 }
 
 @media screen and (min-width: 1024px){
+    .grid__container{
+        width: var(--desktop-container-width);
+    }
     .flexbox__container{
         width: var(--desktop-container-width);
     }
