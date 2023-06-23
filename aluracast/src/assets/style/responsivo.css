@@ -18,6 +18,14 @@
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    .secao-horizontal .cartao{
+        column-gap: 0.5rem;
+    }
+
+    .secao__cartoes{
+        row-gap: 0.5rem;
+        column-gap: 1rem;
+    }
 
     .secao-horizontal .cartao__imagem {
         height: 56px;
@@ -26,6 +34,8 @@
 
     .secao-horizontal .cartao__titulo {
         font: 700 14px/20px Open Sans, sans-serif;
+        grid-row: 1/4;
+        align-self: center;
     }
 
     .secao-vertical .cartao {
@@ -61,7 +71,9 @@
     .menu-lateral__link::before {
         padding-left: 0.75rem;
     }
-
+    .secao__cartoes{
+        column-gap: 1.5rem;
+    }
     .secao-horizontal .cartao__titulo {
         font: 700 16px/22px 'Open Sans', sans-serif;
     }
