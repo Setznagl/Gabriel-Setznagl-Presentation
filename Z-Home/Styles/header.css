@@ -255,7 +255,7 @@ Layout base projetado para 390x844
         grid-area: 1/1/6/2;
     }
     .nav__text__container{
-        grid-area: 1/2/6/5;
+        grid-area: 1/2/6/4;
     }
     .nav__img__container{
         margin: 0 0.2em;
@@ -307,7 +307,7 @@ Layout base projetado para 390x844
         grid-area: 1/1/6/2;
     }
     .nav__text__container{
-        grid-area: 1/2/6/5;
+        grid-area: 1/2/6/4;
     }
     #duolingo__logo__box{
         flex-grow: 1;
