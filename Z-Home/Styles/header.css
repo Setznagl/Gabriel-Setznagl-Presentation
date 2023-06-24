@@ -191,13 +191,13 @@ Layout base projetado para 390x844
     }
     .nav__text__container__icon-list-item{
         margin: 0 auto;
-        width: 10%;
+        width: 8%;
     }
     .nav__text__container__icon-list-text{
         color: var(--p-color-02);
         font-family: var(--secondary-f-family);
         font-weight: var(--text-font-weight);
-        font-size: 1.1em;
+        font-size: 1.35em;
         margin: 0 1em 0 0;
     }.nav__icon__link{text-decoration: none;}
 }
