@@ -1,4 +1,4 @@
-.carrossel__text{
+.block__container__text{
     border-top: 0.25em double var(--p-color-02);
     border-bottom: 0.25em double var(--p-color-02);
     background-color: var(--p-color-01);

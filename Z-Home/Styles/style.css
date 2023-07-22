@@ -19,7 +19,7 @@
   --tablet-container-width: 80%;
   --desktop-container-width: 70%;
   --production-border: #e6cc00 solid 3px;
-
+  --regra-grid-tecnologias: min(100%/2, max(167px,100%/4));
 }
 
 .body{
