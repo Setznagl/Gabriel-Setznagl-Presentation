@@ -298,7 +298,7 @@ Layout base projetado para 390x844
         color: var(--p-color-02);
         font-family: var(--secondary-f-family);
         font-weight: var(--text-font-weight);
-        font-size: 3.0em;
+        font-size: 2.5em;
         margin: 0 0.10em 0 0;
     }.nav__icon__link{text-decoration: none;}
 }
