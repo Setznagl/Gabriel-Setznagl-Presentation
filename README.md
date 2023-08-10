@@ -21,7 +21,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **My Tech Lessons**
 | :label: Tecnologias | javascript, html5, css3
-| :rocket: URL         | https://alura-lessons.vercel.app/
+| :rocket: URL         | https://gabriel-setznagl-presentation.vercel.app/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![Screenshot](/Z-Home/README-images/T-bg.png#vitrinedev)
