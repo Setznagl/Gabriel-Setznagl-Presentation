@@ -4,23 +4,27 @@
 @keyframes showmenu-sentido-horario {
     from{
         opacity: 0;
+        position: relative;
+        left: 30%;
     }
     to{ 
+        position: relative;
+        top: 0%;
         opacity: 1;
+        left: 40%;
     }
 }
 @keyframes showmenu-sentido-antihorario {
     from{
-        left: 89.7vw;
+        position: relative;
+        top: 0%;
         opacity: 1;
-        position: absolute;
-        top: 0;
+        left: 40%;
     }
-    to{
-        left: 100vw;
+    to{ 
         opacity: 0;
-        position: absolute;
-        top: 0;
+        position: relative;
+        left: 30%;
     }
 }
 /*----------------------------------------------
