@@ -9,6 +9,7 @@
 
   <h3>Projeto Pong:</h3>  <p>Através do uso de JavaScript, este pequeno projeto desenvolvido durante as aulas do Alura visa simular o clássico jogo Pong explorando conceitos, funções e manipulações simples de variáveis.<br> 
   <strong>(ENG)</strong> Through the use of JavaScript, this small project developed during Alura classes aims to simulate the classic game Pong by exploring concepts, functions, and simple variable manipulations.</p>
+  ![Screenshot](/Z-Home/README-images/pong.png)
   <img src="/Z-Home/README-images/pong.png">
 
   <h3>Projeto Freeway:</h3> <p>Continuando com os conceitos aprendidos no Projeto Pong, este projeto explora ciclos de repetição como for/while/do-while, manipulação de array e princípios de código limpo.<br>        <strong>(ENG)</strong> Continuing with the concepts learned in the Pong Project, this project explores repetition cycles such as for/while/do-while, array manipulation, and clean code principles.</p>
