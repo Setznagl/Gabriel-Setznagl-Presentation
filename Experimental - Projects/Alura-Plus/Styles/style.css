@@ -18,7 +18,7 @@ body {
     height: 100vh;}
 /*----------------------------------*/
 .principal{
-    background-image: url("/Alura-Plus/Assets/Background.png");
+    background-image: url("/experimental - projects/Alura-Plus/Assets/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
