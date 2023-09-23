@@ -1,11 +1,16 @@
 console.log("Loading! pré API");
 
+//recebendo largura e altura da tela
+$ = document.querySelector.bind(document); 
+$$ = document.querySelectorAll.bind(document); 
+    let elemento = "#content_id"
+    let largura = $(elemento).clientWidth;
+    let altura = $(elemento).clientHeight;
+console.log(largura,altura);
+
 // Exemplo de requisição de API via FETCH API JS
-
 const offset = 0;
-const limit = 10;
-const url = 'https://pokeapi.co/api/v2/pokemon?offset=0&limit=10';
-
+const limit = listaTela(largura , altura);
 const pokemonOL = document.getElementById('pokemonList');
 
 function convertPokemonToHTML(pokemonRecebido){
@@ -27,7 +32,7 @@ function convertPokemonToHTML(pokemonRecebido){
     </li>`
 }
 
-    pokeAPI.getPokemons().then((resultsArray = []) => { 
+    pokeAPI.getPokemons( offset , limit ).then((resultsArray = []) => { 
         pokemonOL.innerHTML += resultsArray.map((convertPokemonToHTML)).join('');
     });
     /* 

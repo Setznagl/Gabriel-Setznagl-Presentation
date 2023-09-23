@@ -7,13 +7,17 @@
 }
 
 .body{
-    background-color: #f6f8fc;
+
 }
 /*            Ordered List Proprieties   */
 .content{
+    background: url("/POKEDEX\ Vanila/assets/pokedex__background.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
     padding: 1rem;
-    height: 100vh;
+    height: 100%;
     }.content h1 {
+        color: transparent;
         margin: 0;}
 
 .pokemonListClass{
@@ -21,7 +25,7 @@
     grid-template-columns: 1fr 1fr;
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 25% 0 0% 5%;
 }
 /*////////////////////////////////////////*/
 
@@ -40,7 +44,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-}
+} 
 
 .pokemonListItem__Image{
     max-width: 60%;
@@ -74,6 +78,8 @@
     font-size: .625rem;
     border-radius: 1rem;
 }
+
+/*///////////////////////////////////////////////////////*/
 .vazio {background-color:  transparent;color: transparent;} 
 
 .grass {
@@ -123,6 +129,15 @@
     .flying::first-letter{ text-transform: uppercase ;}
 .background__flying{
     background: linear-gradient(45deg ,  #BA9E97 , #EBCFC8); }
+
+.normal {
+    background-color:  #f7f6f6;
+    color: #2f2e2e;
+    font-size: .8rem;
+    border: 1px solid rgba(0, 0, 0, .25);} 
+    .normal::first-letter{ text-transform: uppercase ;}
+.background__normal{
+    background: linear-gradient(45deg ,  #2f2e2e , #fbf8f8); }
 
 
 

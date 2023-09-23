@@ -2,7 +2,7 @@ const pokeAPI = {};
 
 pokeAPI.getPokemonDetail = (pokemon) => {return fetch(pokemon.url).then((response) => response.json())}
 
-pokeAPI.getPokemons = (offset = 0 , limit = 12) => {
+pokeAPI.getPokemons = (offset = 0 , limit = 6) => {
     const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`;
     return fetch(url)
         // o primeiro .then recebe a promisse que veio via fetch e o segundo .then recebe o retorno do primeiro já em objeto JSON e o terceiro pega somente o array dos resultados .results
@@ -38,3 +38,13 @@ function manipularlistaTipos (types){
     }
 }   
 
+function listaTela(largura , altura){
+    prop = largura / altura;
+    console.log(prop);
+    if (prop <= 2.5){
+        return 4;}
+    else if (prop > 2.5 && prop <= 2.85 && largura > 700){
+        return 9;}
+    else if (prop > 2.5 && prop <= 3.3 && largura > 900){
+        return 16;}
+}
