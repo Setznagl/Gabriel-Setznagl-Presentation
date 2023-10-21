@@ -80,7 +80,7 @@ Layout base projetado para 390x844
     position: static;
     }
     .nav__menu-hamburguer__input:checked ~ .nav__menu-hamburguer__moldura > .nav__menu-hamburguer__imagem{
-        background-image: url(/Z-Home/Assets/menu-open-icon.svg);
+        background-image: url(/home/Assets/menu-open-icon.svg);
         }
 /* ------------------------------------------- */
 .nav__menu-hamburguer__moldura{
@@ -94,7 +94,7 @@ Layout base projetado para 390x844
     justify-content: center;
 }
 .nav__menu-hamburguer__imagem{
-    background-image: url(/Z-Home/Assets/menu-icon.svg);
+    background-image: url(/home/Assets/menu-icon.svg);
     height: 2em;
     width: 2em;
     display: inline-block;
