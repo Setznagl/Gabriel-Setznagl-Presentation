@@ -10,5 +10,5 @@
 | -------------  | --- |
 | :sparkles: Nome        | **My Tech Lessons**
 | :label: Tecnologias | javascript, html5, css3
-| :rocket: URL         | https://gabriel-setznagl-presentation.vercel.app/
+| :rocket: URL         | 
 

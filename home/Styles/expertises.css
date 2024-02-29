@@ -29,16 +29,19 @@
 
 .expertises__container__item:nth-child(1){
     color: #e44d26;
-    }.expertises__container__item:nth-child(2){
-        color: #0277bd;
-        }.expertises__container__item:nth-child(3){
-            color: #e4ba42;
-            }.expertises__container__item:nth-child(4){
-                color: #c05a2e;
-              }.expertises__container__item:nth-child(5){
-                color: #4d2e21;
-                }.expertises__container__item:nth-child(6){
-                    color: #4d2e21;
-                    }.expertises__container__item:nth-child(0){
-                        color: #000000;
-                        }
+}.expertises__container__item:nth-child(2){
+    color: #0277bd;
+}.expertises__container__item:nth-child(3){
+    color: #e4ba42;
+}.expertises__container__item:nth-child(4){
+    color: #c05a2e;
+}.expertises__container__item:nth-child(5){
+    color: #4d2e21;
+}.expertises__container__item:nth-child(6){
+    color: #4d2e21;
+}.expertises__container__item:nth-child(7){
+    color: #84817a;
+}.expertises__container__item:nth-child(0){
+    color: #000000;
+}
+
