@@ -21,20 +21,19 @@
   --primary-font-family: "Tinos";
   --secondary-font-family: "Arial";
 }
-.just__transform__to__flexbox-container{box-sizing: border-box; display: flex; }
-
+body{
+    font-size: 20px;
+}
 .flexbox__container{
     box-sizing: border-box;
     display: flex;
     width: var(--mobile-container-width);
     margin: 0 auto;
-    background-color: var(--primary-color-dark);
 }
 .grid__container{
     box-sizing: border-box;
     display: grid;
     width: var();
-    background-color: var();
     margin: 0 auto;
 }
 .block__container{
@@ -45,7 +44,6 @@
 }
 .relative_container{
     position: relative; /*Container pai é o absolute*/
-    background-color: var();
 }
 /*
 .expertises__container{
