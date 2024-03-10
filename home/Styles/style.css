@@ -30,6 +30,13 @@ body{
     width: var(--mobile-container-width);
     margin: 0 auto;
 }
+
+.just__flexbox__simple__container{
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
 .grid__container{
     box-sizing: border-box;
     display: grid;

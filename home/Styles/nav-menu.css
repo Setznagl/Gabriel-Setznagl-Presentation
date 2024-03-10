@@ -1,28 +1,37 @@
 @media (max-width:425px){
     .nav-container{
+        background-color: var(--primary-color-light);
         height: 3em;
         align-items: center;
-        background-color: var(--primary-color-light);
+        justify-content: start;
     }
     /*------------------------*/
-    left-icons>left-icon-one{
-        margin-left: 1em;
-        } 
-    left-icons>left-icon-one>img{ 
-        width: 2em; 
+    left-icons{
+        width: 50%;
+    }
+        /*------------------------*/
+        left-icons>left-icon-one{
+            margin-left: 1em;
+            } 
+        left-icons>left-icon-one>img{ 
+            width: 2em; 
+            }
+        /*------------------------*/
+        left-icons>left-icon-two{
+            margin-left: 0;
+            } 
+        left-icons>left-icon-two>img{ 
+            width: 1.5em; 
+            }
+        /*------------------------*/
+    right-icon{
+        width: 50%;
+       
+    }
+        right-icon>interactive-menu{
+
         }
-    /*------------------------*/
-    left-icons>left-icon-two{
-        margin-left: 0;
-        } 
-    left-icons>left-icon-two>img{ 
-        width: 1.5em; 
+        right-icon>interactive-menu>img{
+            width: 2.4em; 
         }
-    /*------------------------*/
-    right-icon>interactive-menu{
-        margin-right: 1em;
-    }
-    right-icon>interactive-menu>img{
-        width: 2.4em; 
-    }
 }
