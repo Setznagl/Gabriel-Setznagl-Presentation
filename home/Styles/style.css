@@ -1,71 +1,52 @@
+@import url(/home/Styles/nav-menu.css);
 /*
 @import url(/home/Styles/header.css);
 @import url(/home/Styles/projects.css);
 @import url(/home/Styles/expertises.css);
 */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root{
   --primary-color-light:#A9907E;
   --primary-color-dark:#675D50;
-  --sec-color-01:#F3DEBA;
-  --sec-color-02:#ABC4AA;
-  --sec-color-03:#ffcb71;
-  --primary-font-size: 20px;
-  --primary-font-family: "Raleway";
-  --secondary-font-family: "Barlow Condensed";
-  --text-font-weight: 400;
-  --relevant-font-weight: 700;;
-  --primary-container-width: 100vw;
-  --tablet-container-width: 100vw;
+  --secondary-color-01:#F3DEBA;
+  --secondary-color-02:#ABC4AA;
+  --secondary-color-03:#ffcb71;
   --desktop-container-width: 100vw;
+  --tablet-container-width: 100vw;
+  --mobile-container-width: 100vw;
   --regra-disposicao-grid-items: min(100vw/2, max(167px,100vw/6));
+  --primary-font-size: 20px;
+  --primary-font-family: "Tinos";
+  --secondary-font-family: "Arial";
 }
-
-.body{
-    box-sizing: border-box;
-    font-size: var(--primary-f-size);
-    font-weight: var(--text-font-weight);
-    font-family: var(--secondary-f-family);
-    color: var(--p-color-02);
-}   
-
-.just__transform__to__flexbox-container{
-    box-sizing: border-box;
-    display: flex;
-}
+.just__transform__to__flexbox-container{box-sizing: border-box; display: flex; }
 
 .flexbox__container{
     box-sizing: border-box;
     display: flex;
-    width: var(--primary-container-width);
+    width: var(--mobile-container-width);
     margin: 0 auto;
-    background-color: var(--p-color-01);
+    background-color: var(--primary-color-dark);
 }
-
 .grid__container{
     box-sizing: border-box;
     display: grid;
-    width: var(--primary-container-width);
-    background-color: var(--p-color-01);
+    width: var();
+    background-color: var();
     margin: 0 auto;
 }
-
 .block__container{
     box-sizing: border-box;
     display: block;
     width: var(--primary-container-width);
     margin: 0 auto;
 }
-
-.header__container,.main__container{
-    position: relative; /* Elemento mestre dos containers é o relativo */
-    height: 100%;
-    width: 100vw;
-    background-color: var(--sec-color-02);
+.relative_container{
+    position: relative; /*Container pai é o absolute*/
+    background-color: var();
 }
-
 /*
 .expertises__container{
     /*border-top: 1px solid rgb(33,53,85, 0.3);
