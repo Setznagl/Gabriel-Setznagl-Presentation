@@ -20,16 +20,26 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <header>
         <nav class="flexbox__container nav-container">
-            <left-icons class="just__flexbox__simple__container nav-container">
-                <left-icon-one><img src="/home/Assets/pie-chart-svgrepo-com.svg" alt="Visual logo"></left-icon-one>
-                <left-icon-two><img src="/home/Assets/cv-icon.svg" alt="Curriculum download icon"></left-icon-two>
+            <left-icons class="just__flexbox__simple__container">
+                <left-icon-one></left-icon-one>
+                <left-icon-two></left-icon-two>
             </left-icons>
-            <right-icon class="just__flexbox__simple__container nav-container">
-               <interactive-menu><img src="/home/Assets/arrow-to-down.svg" alt="Interactive menu logo"></interactive-menu> 
+            <right-icon class="just__flexbox__simple__container">
+                <interactive-menu><label for="navMenu"><input id="nav__menu-hamburguer__input" type="checkbox"></label></interactive-menu>
+                <!-- Elementos do Menu Interativo -->
+                <section class="nav__menu-hamburguer__container">
+                    
+                </section>
             </right-icon>
         </nav>
+        <introduction></introduction>
+    </header>
+    <body>
+        <constructor-label></constructor-label>
+
+        <script src="/Scripts/interactive_menu.js"></script>
     </body>
 </html>
     
