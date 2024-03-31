@@ -1,5 +1,6 @@
 @import url(/home/Styles/nav-menu.css);
 @import url(/home/Styles/interactive_menu.css);
+@import url(/home/Styles/introduction.css);
 /*
 @import url(/home/Styles/header.css);
 @import url(/home/Styles/projects.css);
@@ -14,6 +15,7 @@
   --secondary-color-01:#F3DEBA;
   --secondary-color-02:#ABC4AA;
   --secondary-color-03:#ffcb71;
+  --secondary-color-04:#6C3428;
   --desktop-container-width: 100vw;
   --tablet-container-width: 100vw;
   --mobile-container-width: 100vw;
@@ -72,65 +74,4 @@ constructor-label{
  }
 */
 
-/* Menu Hamburguer 
-@keyframes showmenu-sentido-horario {
-    from{
-        opacity: 0;
-        position: relative;
-        left: 30%;
-    }
-    to{ 
-        position: relative;
-        top: 0%;
-        opacity: 1;
-        left: 40%;
-    }
-}
-@keyframes showmenu-sentido-antihorario {
-    from{
-        position: relative;
-        top: 0%;
-        opacity: 1;
-        left: 40%;
-    }
-    to{ 
-        opacity: 0;
-        position: relative;
-        left: 30%;
-    }
-}
 
-.nav__menu-hamburguer__input{
-    display: none;
-
-}.nav__menu-hamburguer__input:checked ~ .nav__icons__container > .nav__icon__list{
-    display: flex;
-    animation-name: showmenu-sentido-horario;
-    animation-duration: 1.6s;
-    animation-fill-mode: forwards;
-    position: static;
-    }
-    .nav__menu-hamburguer__input:checked ~ .nav__menu-hamburguer__moldura > .nav__menu-hamburguer__imagem{
-        background-image: url(/home/Assets/menu-open-icon.svg);
-        }
-
-.nav__menu-hamburguer__moldura{
-    grid-area: 2/3/5/4;
-    background-color: var(--sec-color-03);
-    padding: 0.15em;
-    border: 0.1em solid var(--sec-color-02);
-    border-radius: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.nav__menu-hamburguer__imagem{
-    background-image: url(/home/Assets/menu-icon.svg);
-    height: 2em;
-    width: 2em;
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-position: center;
-    transition: 0.5s;
-}
-------------------------------------------- */

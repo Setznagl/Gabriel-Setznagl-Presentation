@@ -27,17 +27,37 @@
                 <left-icon-two></left-icon-two>
             </left-icons>
             <right-icon class="just__flexbox__simple__container">
-                <interactive-menu><label for="navMenu"><input id="nav__menu-hamburguer__input" type="checkbox"></label></interactive-menu>
+                <interactive-menu>
+                    <label for="nav__menu-hamburguer__input">
+                        <input id="nav__menu-hamburguer__input" type="checkbox">
+                    </label>
+                </interactive-menu>
                 <!-- Elementos do Menu Interativo -->
                 <section class="nav__menu-hamburguer__container">
-                    
+                    <ul class="just__flexbox__simple__container nav__menu__vertical__text">
+                        <li class="nav__menu__vertical-item">About</li>
+                        <li class="nav__menu__vertical-item">Experience</li>
+                        <li class="nav__menu__vertical-item">Skills</li>
+                        <li class="nav__menu__vertical-item">Projects</li>
+                        <li class="nav__menu__vertical-item">Contact</li>
+                    </ul>
+                    <interactive-menu-close>
+                        <label for="nav__menu-hamburguer__close__input">
+                            <input id="nav__menu-hamburguer__close__input" type="checkbox">
+                        </label>
+                    </interactive-menu-close>
                 </section>
             </right-icon>
         </nav>
-        <introduction></introduction>
+        <introduction>
+            <div id="introduction_name">Gabriel Setznagl</div>
+            <div id="introduction_title">Front-End Developer</div>
+            <a href="#t1"><div id="introduction_arrow"></div></a>
+        </introduction>
     </header>
     <body>
         <constructor-label></constructor-label>
+        <constructor-label id="t1"></constructor-label>
 
         <script src="/Scripts/interactive_menu.js"></script>
     </body>
