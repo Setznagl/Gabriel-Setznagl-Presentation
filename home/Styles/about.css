@@ -27,11 +27,31 @@
         border-right: 1px solid black;
     }
 
+    #ab_me-1{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #linkedin-icon{
+        background-image: url(/home/Assets/linkedin_icon.svg);
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-bottom: 0.25rem;
+    }
+
+    #github-icon{
+        background-image: url(/home/Assets/github_icon.svg);
+        width: 2rem;
+        height: 2rem;
+    }
+
     #ab_me-2{
        align-self: center;
        margin: 0 auto;
        background-image: url(/home/Assets/ProfileLogo.jpg);
-       background: center / contain no-repeat url("/home/Assets/ProfileLogo.jpg");
+       background: center / contain no-repeat url("/home/Assets/step\ by\ step.png");
        height: 5rem;
        width: 6rem;
     }
