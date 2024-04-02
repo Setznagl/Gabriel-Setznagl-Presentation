@@ -16,15 +16,25 @@
     }
 
     .about-me__container{
-        
+        background-color: var(--secondary-color-04);
     }
 
-    constructor-tester{
-        display: block;
+    .aboutMe-items{
+        display: flex;
         width: 6.5rem;
         height: 8rem;
-        background-color: #ffcb71;
-        opacity: 0.5;
+        margin: 0 auto;
+        border-right: 1px solid black;
+    }
+
+    #ab_me-2{
+       align-self: center;
+       margin: 0 auto;
+       width: 6rem;
+       height: 5rem;
+       background-image: url(/home/Assets/ProfileLogo.jpg);
+       background: center / contain no-repeat url("/home/Assets/ProfileLogo.jpg");
+ 
     }
     
 }
