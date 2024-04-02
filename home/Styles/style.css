@@ -57,6 +57,13 @@ html{
     position: relative; /*Container pai é o absolute*/
 }
 
+construction-assistance-container{
+    display: block;
+    width: 100%;
+    height: 10rem;
+    background-color: orange;
+}
+
 /*
 .expertises__container{
     /*border-top: 1px solid rgb(33,53,85, 0.3);
