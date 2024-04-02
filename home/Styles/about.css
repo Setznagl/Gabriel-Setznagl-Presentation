@@ -1,4 +1,30 @@
 @media (max-width:425px){
 
+    #aboutMe_Title-text{
+        font-family: var(--primary-font-family);
+        font-size: 2rem;
+        height: 2rem;
+        align-items: center;
+        justify-content: center;
+        color: var(--secondary-color-03);
+        background-color: var(--secondary-color-04);
+        border-top: 0.05rem solid var(--primary-color-light);
+    } #aboutMe_Title-text > h1 {
+        margin-top: 0.5rem;
+        border-bottom: 0.5rem solid var(--primary-color-light);
+        z-index: 1;
+    }
+
+    .about-me__container{
+        
+    }
+
+    constructor-tester{
+        display: block;
+        width: 6.5rem;
+        height: 8rem;
+        background-color: #ffcb71;
+        opacity: 0.5;
+    }
     
 }
