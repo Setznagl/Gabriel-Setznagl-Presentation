@@ -30,11 +30,10 @@
     #ab_me-2{
        align-self: center;
        margin: 0 auto;
-       width: 6rem;
-       height: 5rem;
        background-image: url(/home/Assets/ProfileLogo.jpg);
        background: center / contain no-repeat url("/home/Assets/ProfileLogo.jpg");
- 
+       height: 5rem;
+       width: 6rem;
     }
     
 }
