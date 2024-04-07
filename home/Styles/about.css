@@ -24,10 +24,9 @@
         width: 6.5rem;
         height: 8rem;
         margin: 0 auto;
-        border-right: 1px solid black;
     }
 
-    #ab_me-1{
+    #ab_me-1 , #ab_me-3{
         display: flex;
         flex-flow: column;
         align-items: center;
@@ -54,6 +53,12 @@
        background: center / contain no-repeat url("/home/Assets/step\ by\ step.png");
        height: 5rem;
        width: 6rem;
+    }
+
+    #ab_me-3 > p {
+        font-size: 0.5rem;
+        color: var(--secondary-color-01);
+        margin-bottom: 0.75rem;
     }
     
 }

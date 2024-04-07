@@ -2,6 +2,8 @@
 @import url(/home/Styles/interactive_menu.css);
 @import url(/home/Styles/introduction.css);
 @import url(/home/Styles/about.css);
+@import url(/home/Styles/experiences.css);
+@import url(/home/Styles/skills.css);
 /*
 @import url(/home/Styles/header.css);
 @import url(/home/Styles/projects.css);
@@ -41,6 +43,24 @@ html{
     width: 100%;
     margin: 0 auto;
 }
+
+.flexbox_simple_container_with_custom_width{
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+}
+
+.centralize_flexbox_vertical_items{
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.centralize_flexbox_horizontal_items{
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
 .grid__container{
     box-sizing: border-box;
     display: grid;
