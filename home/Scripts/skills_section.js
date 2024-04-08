@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
             specialBlock_1_estilizacao();
             specialBlock_2_estilizacao();
             skills_item_selected_icon_estilizacao(1);
-            skills_item_selected_description_estilizacao();
+            skills_item_selected_description_estilizacao(1);
 
             desabilitarTodosOsDemais();
     }); 
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
             specialBlock_1_estilizacao();
             specialBlock_2_estilizacao();
             skills_item_selected_icon_estilizacao(2);
-            skills_item_selected_description_estilizacao();
+            skills_item_selected_description_estilizacao(2);
 
             desabilitarTodosOsDemais();
     });
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         specialBlock_1_estilizacao();
         specialBlock_2_estilizacao();
         skills_item_selected_icon_estilizacao(3);
-        skills_item_selected_description_estilizacao();
+        skills_item_selected_description_estilizacao(3);
 
         desabilitarTodosOsDemais();
     });
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
         specialBlock_1_estilizacao();
         specialBlock_2_estilizacao();
         skills_item_selected_icon_estilizacao(4);
-        skills_item_selected_description_estilizacao();
+        skills_item_selected_description_estilizacao(4);
 
         desabilitarTodosOsDemais();
     });
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
         specialBlock_1_estilizacao();
         specialBlock_2_estilizacao();
         skills_item_selected_icon_estilizacao(5);
-        skills_item_selected_description_estilizacao();
+        skills_item_selected_description_estilizacao(5);
 
         desabilitarTodosOsDemais();
     });
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
         specialBlock_1_estilizacao();
         specialBlock_2_estilizacao();
         skills_item_selected_icon_estilizacao(6);
-        skills_item_selected_description_estilizacao();
+        skills_item_selected_description_estilizacao(6);
 
         desabilitarTodosOsDemais();
     });
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
         specialBlock_1_estilizacao();
         specialBlock_2_estilizacao();
         skills_item_selected_icon_estilizacao(7);
-        skills_item_selected_description_estilizacao();
+        skills_item_selected_description_estilizacao(7);
 
         desabilitarTodosOsDemais();
     });
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
         specialBlock_1_estilizacao();
         specialBlock_2_estilizacao();
         skills_item_selected_icon_estilizacao(8);
-        skills_item_selected_description_estilizacao();
+        skills_item_selected_description_estilizacao(8);
 
         desabilitarTodosOsDemais();
     });
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
         specialBlock_1_estilizacao();
         specialBlock_2_estilizacao();
         skills_item_selected_icon_estilizacao(9);
-        skills_item_selected_description_estilizacao();
+        skills_item_selected_description_estilizacao(9);
 
         desabilitarTodosOsDemais();
     });
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
         specialBlock_1_estilizacao();
         specialBlock_2_estilizacao();
         skills_item_selected_icon_estilizacao(10);
-        skills_item_selected_description_estilizacao();
+        skills_item_selected_description_estilizacao(10);
 
         desabilitarTodosOsDemais();
     });
@@ -279,11 +279,57 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    function skills_item_selected_description_estilizacao(){
+    function skills_item_selected_description_estilizacao(indice_Identificacao){
         skills_item_selected_description.style.cssText =
         `
         border-radius: 0 0.25rem 0.25rem 0;
         `
+        switch (indice_Identificacao) {
+            case 1:
+                skills_item_selected_description.innerText = "HTML-5 \n Linguagem de marcação para estruturação de páginas" + 
+                " web simples e complexas";
+            break;
+            case 2:
+                skills_item_selected_description.innerText = "CSS-3 \n Linguagem de estilização para web com" + 
+                " herança de regras em cascata";
+            break;
+            case 3:
+                skills_item_selected_description.innerText = "C \n L" + 
+                " h";
+            break;
+            case 4:
+                skills_item_selected_description.innerText = "C \n L" + 
+                " h";
+            break;
+            case 5:
+                skills_item_selected_description.innerText = "C \n L" + 
+                " h";
+            break;
+            case 6:
+                skills_item_selected_description.innerText = "C \n L" + 
+                " h";
+            break;
+            case 7:
+                skills_item_selected_description.innerText = "C \n L" + 
+                " h";
+            break;
+            case 8:
+                skills_item_selected_description.innerText = "C \n L" + 
+                " h";
+            break;
+            case 9:
+                skills_item_selected_description.innerText = "C \n L" + 
+                " h";
+            break;
+            case 10:
+                skills_item_selected_description.innerText = "C \n L" + 
+                " h";
+            break;
+            
+        
+            default:
+            break;
+        }
     }
 
     skills_item_selected_icon.addEventListener('mouseover', function() {

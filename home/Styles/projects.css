@@ -1,0 +1,19 @@
+@media (max-width:425px){
+
+    .projects_container{
+        flex-flow: column wrap;
+        background-color: var(--primary-color-dark);
+        height: 10rem;
+        border-bottom: 0.1rem solid var(--secondary-color-04);
+    }
+
+    #projects_title{
+        justify-content: center;
+        height: 2rem;
+        font-size: 1rem;
+        align-items: end;
+        color: var(--secondary-color-01);
+        margin-bottom: 0.25rem;
+    }
+
+}

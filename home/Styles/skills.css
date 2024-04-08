@@ -4,6 +4,7 @@
         flex-flow: column wrap;
         background-color: var(--primary-color-dark);
         height: 10rem;
+        border-bottom: 0.1rem solid var(--secondary-color-04);
     }
 
     #skills_title{
@@ -129,7 +130,10 @@
     #skills-item-selected-icon{}
 
     #skills-item-selected-description{ 
+        font-size: 0.8rem;
         background-color: var(--secondary-color-02);
+        color: var(--secondary-color-04);
+        text-align: center;
     }
 
     
