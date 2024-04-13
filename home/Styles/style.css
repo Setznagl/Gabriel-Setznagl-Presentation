@@ -78,22 +78,5 @@ html{
     position: relative; /*Container pai é o absolute*/
 }
 
-construction-assistance-container{
-    display: block;
-    width: 100%;
-    height: 10rem;
-    background-color: orange;
-}
-
-/*
-.expertises__container{
-    /*border-top: 1px solid rgb(33,53,85, 0.3);
-     border-bottom: 1px solid rgb(255,255,255, 0.3);
-     display: grid;
-     align-items: center;
-     grid-template-columns: repeat(auto-fit , minmax(var(--regra-grid-tecnologias), 1fr));
-     text-align: center;
- }
-*/
 
 

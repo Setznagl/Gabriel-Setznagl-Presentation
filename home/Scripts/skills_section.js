@@ -280,50 +280,86 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function skills_item_selected_description_estilizacao(indice_Identificacao){
-        skills_item_selected_description.style.cssText =
-        `
-        border-radius: 0 0.25rem 0.25rem 0;
-        `
         switch (indice_Identificacao) {
             case 1:
+                skills_item_selected_description.style.cssText =
+                `
+                font-size: 0.8rem;
+                `
                 skills_item_selected_description.innerText = "HTML-5 \n Linguagem de marcação para estruturação de páginas" + 
                 " web simples e complexas";
             break;
             case 2:
+                skills_item_selected_description.style.cssText =
+                `
+                font-size: 0.8rem;
+                `
                 skills_item_selected_description.innerText = "CSS-3 \n Linguagem de estilização para web com" + 
                 " herança de regras em cascata";
             break;
             case 3:
-                skills_item_selected_description.innerText = "C \n L" + 
-                " h";
+                skills_item_selected_description.style.cssText =
+                `
+                font-size: 0.7rem;
+                `
+                skills_item_selected_description.innerText = "JavaScript \n linguagem de alto nível " + 
+                " frequentemente aplicada em interações dinâmicas em páginas da web";
             break;
             case 4:
-                skills_item_selected_description.innerText = "C \n L" + 
-                " h";
+                skills_item_selected_description.style.cssText =
+                `
+                font-size: 0.8rem;
+                `
+                skills_item_selected_description.innerText = "GIT \n Ferramenta para versionamento" + 
+                " e manutenção de código";
             break;
             case 5:
-                skills_item_selected_description.innerText = "C \n L" + 
-                " h";
+                skills_item_selected_description.style.cssText = 
+                `
+                font-size: 0.8rem;
+                `
+                skills_item_selected_description.innerText = "Azure \n Plataforma para gestão e" + 
+                " deploy de serviços em nuvem";
             break;
             case 6:
-                skills_item_selected_description.innerText = "C \n L" + 
-                " h";
+                skills_item_selected_description.style.cssText =
+                `
+                font-size: 0.75rem;
+                `
+                skills_item_selected_description.innerText = "Java \n Linguagem de alto nível orientada a objetos" + 
+                " e multiplataforma (apps empresariais, web e mobile)";
             break;
             case 7:
-                skills_item_selected_description.innerText = "C \n L" + 
-                " h";
+                skills_item_selected_description.style.cssText =
+                `
+                font-size: 0.65rem;
+                `
+                skills_item_selected_description.innerText = "NodeJS \n Possibilita o uso do JavaScript tanto no lado do cliente" + 
+                " quanto no lado do servidor, facilitando o desenvolvimento de apps em uma linguagem unificada";
             break;
             case 8:
-                skills_item_selected_description.innerText = "C \n L" + 
-                " h";
+                skills_item_selected_description.style.cssText =
+                `
+                font-size: 0.7rem;
+                `
+                skills_item_selected_description.innerText = "Angular \n Framework front-end poderoso e modular," + 
+                " desenvolvido pelo Google para criar aplicações web SPA interativas e escaláveis";
             break;
             case 9:
-                skills_item_selected_description.innerText = "C \n L" + 
-                " h";
+                skills_item_selected_description.style.cssText =
+                `
+                font-size: 0.65rem;
+                `
+                skills_item_selected_description.innerText = "Notion \n Ferramenta para gestão pessoal e dinamização de anotações" + 
+                " em modelo de páginas com ampla compatibilidade e integração de serviços";
             break;
             case 10:
-                skills_item_selected_description.innerText = "C \n L" + 
-                " h";
+                skills_item_selected_description.style.cssText =
+                `
+                font-size: 0.85rem;
+                `
+                skills_item_selected_description.innerText = "MySQL \n Banco de dados relacional de código" + 
+                "  aberto amplamente utilizado";
             break;
             
         

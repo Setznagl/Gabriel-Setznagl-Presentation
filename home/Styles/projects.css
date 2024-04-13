@@ -1,5 +1,23 @@
 @media (max-width:425px){
 
+    @keyframes project-card-animation {
+        0% {
+            background-color: var(--secondary-color-04);
+            background-size: 10%;
+            background-repeat: no-repeat;
+        }
+        25%{
+            background-clip: 10%;
+        }
+        50%{
+            background-clip: 10%;
+        }
+        100% {
+            background-clip: 10%;
+            background-color: red;
+        }
+    }
+
     .projects_container{
         flex-flow: column wrap;
         background-color: var(--primary-color-dark);
@@ -14,6 +32,40 @@
         align-items: end;
         color: var(--secondary-color-01);
         margin-bottom: 0.25rem;
+    }
+    projects_full_card{
+        height: 5rem;
+        justify-content: space-around;
+    }
+
+    projects-card {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .hover-card{
+        background-color: var(--secondary-color-02);
+        width: 100%;
+        height: 100%;
+        border-radius: 0.25rem;
+    }
+
+    .hover-card:hover{
+        background-color: inherit;
+    }
+
+    .hover-card-effect{
+        position: relative;
+        top: -100%;
+        background-color: var(--secondary-color-04);
+        width: 100%;
+        height: 100%;
+        border-radius: 0.25rem;
+        transition: 3s;
+    }
+
+    .hover-card-effect:hover{
+        background-color: inherit;
     }
 
 }
