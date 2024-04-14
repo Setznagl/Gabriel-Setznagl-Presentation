@@ -59,3 +59,65 @@
         }
 
 }
+
+@media (max-width:850px){
+
+    .experiences_container{
+        flex-flow: column wrap;
+        background-color: var(--primary-color-dark);
+        height: 10rem;
+        border-bottom: 0.1rem solid var(--secondary-color-04);
+    }
+
+        #experiences_title{
+            justify-content: center;
+            height: 2rem;
+            font-size: 1rem;
+            align-items: end;
+            color: var(--secondary-color-01);
+            margin-bottom: 0.25rem;
+        }
+
+        experiences_full_card{
+            border-radius: 0.5rem;
+            height: 5rem;
+            width: 16rem;
+            background-color: var(--secondary-color-01);
+        }
+
+        experiences_center_card{
+            height: 3rem;
+            width: 16rem;
+            background-color: var(--secondary-color-04);
+        }
+
+        company-logo{
+            width: 6rem;
+            height: 1rem;
+            margin-top: 0.25rem;
+            background-image: url(/home/Assets/atos_logo.svg);
+            border-bottom: 0.1rem solid var(--secondary-color-01);
+        }
+
+        position{
+            font-size: 1rem;
+            color: var(--secondary-color-01);
+        }
+
+        #other-experiences{
+            height: 0.1rem;
+            font-size: 1rem;
+            color: var(--secondary-color-04);
+        }
+
+        #experiences-cv-logo{
+            margin-top: 0.5rem;
+        }
+
+        #atos_link{
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+}
