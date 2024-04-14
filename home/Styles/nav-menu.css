@@ -32,6 +32,10 @@
             background-image: url(/home/Assets/pie-chart-svgrepo-com.svg);
             transition: 1s;
         }
+        left-icon-one:hover{
+            background-image: url(/home/Assets/navmenu-go-up.svg);
+            cursor: pointer;
+        }
         left-icon-two{
             width: 1.5rem;
             height: 1.5rem;

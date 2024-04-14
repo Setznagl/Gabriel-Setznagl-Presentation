@@ -1,20 +1,94 @@
 @media (max-width:425px){
 
-    @keyframes project-card-animation {
+    @keyframes hover-card-effect-animation__on {
         0% {
-            background-color: var(--secondary-color-04);
-            background-size: 10%;
-            background-repeat: no-repeat;
+            top: -100%;
+            z-index: 0;
         }
         25%{
-            background-clip: 10%;
+            top: -150%;
+            z-index: 0;
         }
         50%{
-            background-clip: 10%;
+            top: -125%;
+            z-index: 0;
         }
         100% {
-            background-clip: 10%;
-            background-color: red;
+            top: -100%;
+            z-index: 0;
+        }
+    }
+
+    @keyframes hover-card-effect-animation__off {
+        0% {
+            top: -100%;
+            z-index: 0;
+        }
+        25%{
+           top: -150%;
+           z-index: 0;
+        }
+        50%{
+           top: -125%;
+           z-index: 0;
+        }
+        100% {
+           top: -100%;
+           z-index: 1;
+       }
+    }
+
+    @keyframes hover-card-animation__on {
+        0% {
+            top: 0%;
+            z-index: 0;
+        }
+        25%{
+            top: 55%;
+            z-index: 0;
+        }
+        40%{
+            top: 55%;
+            z-index: 1;
+        }
+        50%{
+            top: 55%;
+            z-index: 1;
+        }
+        75%{
+            top: 55%;
+            z-index: 1;
+        }
+        100% {
+            top: 0%;
+            z-index: 1;
+        }
+    }
+
+    @keyframes hover-card-animation__off {
+        0% {
+            top: 0%;
+            z-index: 1;
+        }
+        25%{
+            top: 55%;
+            z-index: 1;
+        }
+        40%{
+            top: 55%;
+            z-index: 0;
+        }
+        50%{
+            top: 55%;
+            z-index: 0;
+        }
+        75%{
+            top: 55%;
+            z-index: 0;
+        }
+        100% {
+            top: 0%;
+            z-index: 0;
         }
     }
 
@@ -31,8 +105,9 @@
         font-size: 1rem;
         align-items: end;
         color: var(--secondary-color-01);
-        margin-bottom: 0.25rem;
+        margin-bottom: 0.5rem;
     }
+
     projects_full_card{
         height: 5rem;
         justify-content: space-around;
@@ -44,28 +119,57 @@
     }
 
     .hover-card{
+        position: relative;
         background-color: var(--secondary-color-02);
         width: 100%;
         height: 100%;
         border-radius: 0.25rem;
-    }
-
-    .hover-card:hover{
-        background-color: inherit;
+        z-index: 0;
     }
 
     .hover-card-effect{
         position: relative;
         top: -100%;
         background-color: var(--secondary-color-04);
+        background-image: url(/home/Assets/projects_cover_icon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
         width: 100%;
         height: 100%;
         border-radius: 0.25rem;
-        transition: 3s;
+        z-index: 1;
     }
 
-    .hover-card-effect:hover{
-        background-color: inherit;
+    #hover-bg-1{
+        width: 100%;
+        height: 100%;
+        background-image: url(/home/Assets/project_pokedex_image.svg);
+        background-position: center;
+        background-repeat: no-repeat;
     }
+
+    #hover-bg-2{
+        width: 100%;
+        height: 100%;
+        background-image: url(/home/Assets/avatar.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #hover-bg-3{
+        width: 100%;
+        height: 100%;
+        background-image: url(/home/Assets/avatar.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #hover-bg-1 > a , #hover-bg-2 > a , #hover-bg-3 > a {
+        cursor: pointer;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
 
 }

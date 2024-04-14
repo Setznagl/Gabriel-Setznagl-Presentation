@@ -24,6 +24,7 @@
   --tablet-container-width: 100vw;
   --mobile-container-width: 100vw;
   --regra-disposicao-grid-items: min(100vw/2, max(167px,100vw/6));
+  --regra-disposicao-flex-items: min(100vw/3, max(5rem,100vw/3));
   --primary-font-size: 20px;
   --primary-font-family: "Tinos";
   --secondary-font-family: "Arial";
