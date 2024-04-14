@@ -11,6 +11,12 @@ document.addEventListener('DOMContentLoaded', function() {
         const hover_card_effect_item_3 = hover_card_effect_list[2]; // Terceiro elemento
 
         var elementoSelecionado;
+        //// Função para detectar se a tela é mobile para travar o mouseover e previnir bugs ////
+        var dispositivoMobile = false;
+        function mobileDetector(){if (/Mobi/.test(navigator.userAgent)) dispositivoMobile = true;}
+        console.log("Dispositivo Mobile " + dispositivoMobile);
+        mobileDetector();
+        /////////////////////////////////////////////////////////////////////////////////////////
 
         function hover_effect_open(elemento){
             elemento.style.cssText = 
@@ -70,16 +76,31 @@ document.addEventListener('DOMContentLoaded', function() {
             ///////////////////////////////////////////////////////////////////
             /*             Hover Card Effect mouseout functions             */
             hover_card_item_1.addEventListener('mouseout', function() {
+                    mobileDetector();
+                    console.log("Dispositivo Mobile " + dispositivoMobile + " / Origem hover_card_1 ");
+                if(dispositivoMobile == false)
+                {
                     hover_effect_close(hover_card_effect_item_1);
                     hover_close(hover_card_item_1);
+                }
             });
             hover_card_item_2.addEventListener('mouseout', function() {
-                hover_effect_close(hover_card_effect_item_2);
-                hover_close(hover_card_item_2);
+                    mobileDetector();
+                    console.log("Dispositivo Mobile " + dispositivoMobile + " / Origem hover_card_2 ");
+                if(dispositivoMobile == false)
+                {
+                    hover_effect_close(hover_card_effect_item_2);
+                    hover_close(hover_card_item_2);
+                }
             });
             hover_card_item_3.addEventListener('mouseout', function() {
-                hover_effect_close(hover_card_effect_item_3);
-                hover_close(hover_card_item_3);
+                    mobileDetector();
+                    console.log("Dispositivo Mobile " + dispositivoMobile + " / Origem hover_card_3 ");
+                if(dispositivoMobile == false)
+                {
+                    hover_effect_close(hover_card_effect_item_3);
+                    hover_close(hover_card_item_3);
+                }
             });
             //////////////////////////////////////////////////////////////////
    

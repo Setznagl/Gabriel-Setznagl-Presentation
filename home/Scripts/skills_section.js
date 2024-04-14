@@ -381,7 +381,7 @@ document.addEventListener('DOMContentLoaded', function() {
       });
       // Adiciona o evento de mouseout para remover a classe "hover" quando o mouse deixa o elemento
     skills_item_selected_icon.addEventListener('mouseout', function() {
-    console.log("IG-"+indiceSelecionado_global);
+    console.log("Indice Selecionado "+indiceSelecionado_global);
         return skills_item_selected_icon_estilizacao(indiceSelecionado_global);
       });
    
