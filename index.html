@@ -23,7 +23,9 @@
     <header>
         <nav class="flexbox__container nav-container">
             <left-icons class="just__flexbox__simple__container">
-                <left-icon-one></left-icon-one>
+                <left-icon-one>
+                    <a href="#"></a>
+                </left-icon-one>
                 <left-icon-two></left-icon-two>
             </left-icons>
             <right-icon class="just__flexbox__simple__container">
@@ -36,10 +38,10 @@
                 <section class="nav__menu-hamburguer__container">
                     <ul class="just__flexbox__simple__container nav__menu__vertical__text">
                         <li class="nav__menu__vertical-item"><a href="#ab-me-anchor">About</a></li>
-                        <li class="nav__menu__vertical-item">Experience</li>
-                        <li class="nav__menu__vertical-item">Skills</li>
-                        <li class="nav__menu__vertical-item">Projects</li>
-                        <li class="nav__menu__vertical-item">Contact</li>
+                        <li class="nav__menu__vertical-item"><a href="#exp-anchor">Experience</a></li>
+                        <li class="nav__menu__vertical-item"><a href="#skills-anchor">Skills</a></li>
+                        <li class="nav__menu__vertical-item"><a href="#proj-anchor">Projects</a></li>
+                        <li class="nav__menu__vertical-item"><a href="#cont-anchor">Contact</a></li>
                     </ul>
                     <interactive-menu-close>
                         <label for="nav__menu-hamburguer__close__input">
@@ -52,7 +54,7 @@
         <introduction>
             <div id="introduction_name">Gabriel Setznagl</div>
             <div id="introduction_title">Front-End Developer</div>
-            <a id="ab-me-anchor" href="#"><div id="introduction_arrow"></div></a>
+            <a id="ab-me-anchor" href="#cont-anchor"><div id="introduction_arrow"></div></a>
         </introduction>
     </header>
     <body>
@@ -60,7 +62,7 @@
         <section class="flexbox__container about-me__container">
             <div id="ab_me-1" class="aboutMe-items">
                 <a href="https://www.linkedin.com/in/gabriel-setznagl/" target="_blank"><figure id="linkedin-icon"></figure></a>
-                <a href="https://github.com/Setznagl" target="_blank"><figure id="github-icon"></figure></a>
+                <a id="exp-anchor" href="https://github.com/Setznagl" target="_blank"><figure id="github-icon"></figure></a>
             </div>
             <div class="aboutMe-items">
                 <figure id="ab_me-2"></figure>
@@ -74,16 +76,17 @@
 
         <section class="just__flexbox__simple__container experiences_container">
             <div id="experiences_title" class="just__flexbox__simple__container">
-                Looking for my IT experience?
+                <p>Looking for my IT experience?</p>
             </div>
             <div class="just__flexbox__simple__container centralize_flexbox_vertical_items">
                 <experiences_full_card class="flexbox_simple_container_with_custom_width centralize_flexbox_vertical_items">
                     <experiences_center_card class="just__flexbox__simple__container centralize_flexbox_vertical_items">
-                        <company-logo><a id="atos_link" href="https://atos.net/en/" target="_blank">
+                        <company-logo id="exp-anchor"><a id="atos_link" href="https://atos.net/en/" target="_blank">
                             </a></company-logo>
                         <position>Service Desk Analyst N1  -   4 months</position>
                     </experiences_center_card>
                         <div id="other-experiences">Other experiences</div>
+                        <p id="skills-anchor"></p>
                 </experiences_full_card>
                 <left-icon-two id="experiences-cv-logo"></left-icon-two>
             </div>
@@ -144,6 +147,7 @@
                 </green-block>
 
             </skills_full_card>
+            <p id="proj-anchor"></p>
         </section>
 
         <section class="just__flexbox__simple__container projects_container">
@@ -175,6 +179,16 @@
                 
             </projects_full_card>
         </section>
+
+    <footer>
+        <section id="cont-anchor" class="just__flexbox__simple__container contact_justify contact_container">
+            <div>
+                <p>&#127463&#127479 - &#127477&#127479 - Londrina</p>
+                <p id="contact-email">comercialgabrielsetznagl@gmail.com</p>
+            </div>
+            <figure><a href="mailto:comercialgabrielsetznagl@gmail.com"></a></figure>
+        </section>
+    </footer>
 
         <script src="/home/Scripts/interactive_menu.js"></script>
         <script src="/home/Scripts/skills_section.js"></script>

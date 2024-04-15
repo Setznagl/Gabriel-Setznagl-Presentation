@@ -5,11 +5,7 @@
 @import url(/home/Styles/experiences.css);
 @import url(/home/Styles/skills.css);
 @import url(/home/Styles/projects.css);
-/*
-@import url(/home/Styles/header.css);
-@import url(/home/Styles/projects.css);
-@import url(/home/Styles/expertises.css);
-*/
+@import url(/home/Styles/contact.css);
 @import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
@@ -42,10 +38,8 @@ html{
 .just__flexbox__simple__container{
     box-sizing: border-box;
     display: flex;
-    width: 100%;
     margin: 0 auto;
-}
-
+    width: 100%;}
 .flexbox_simple_container_with_custom_width{
     box-sizing: border-box;
     display: flex;
@@ -55,11 +49,10 @@ html{
 .centralize_flexbox_vertical_items{
     flex-flow: column wrap;
     align-items: center;
-    justify-content: center;
-}
-
+    justify-content: center;}
 .centralize_flexbox_horizontal_items{
     flex-flow: row wrap;
+    align-items: center;
     justify-content: center;
 }
 
