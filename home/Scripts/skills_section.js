@@ -286,80 +286,79 @@ document.addEventListener('DOMContentLoaded', function() {
                 `
                 font-size: 0.8rem;
                 `
-                skills_item_selected_description.innerText = "HTML-5 \n Linguagem de marcação para estruturação de páginas" + 
-                " web simples e complexas";
+                skills_item_selected_description.innerText = "HTML-5 \n Markup language for structuring simple" + 
+                " and complex web pages";
             break;
-            case 2:
+            case 2: 
                 skills_item_selected_description.style.cssText =
                 `
                 font-size: 0.8rem;
                 `
-                skills_item_selected_description.innerText = "CSS-3 \n Linguagem de estilização para web com" + 
-                " herança de regras em cascata";
+                skills_item_selected_description.innerText = "CSS-3 \n Web styling language with cascading" + 
+                " rule inheritance";                       
             break;
             case 3:
                 skills_item_selected_description.style.cssText =
                 `
                 font-size: 0.7rem;
                 `
-                skills_item_selected_description.innerText = "JavaScript \n linguagem de alto nível " + 
-                " frequentemente aplicada em interações dinâmicas em páginas da web";
-            break;
+                skills_item_selected_description.innerText = "JavaScript \n High-level language " + 
+                " often applied in dynamic interactions on web pages";
+            break;  
             case 4:
                 skills_item_selected_description.style.cssText =
                 `
                 font-size: 0.8rem;
                 `
-                skills_item_selected_description.innerText = "GIT \n Ferramenta para versionamento" + 
-                " e manutenção de código";
+                skills_item_selected_description.innerText = "GIT \n Tool for versioning" + 
+                " and code maintenance";  
             break;
             case 5:
                 skills_item_selected_description.style.cssText = 
                 `
                 font-size: 0.8rem;
                 `
-                skills_item_selected_description.innerText = "Azure \n Plataforma para gestão e" + 
-                " deploy de serviços em nuvem";
-            break;
-            case 6:
+                skills_item_selected_description.innerText = "Azure \n Platform for managing" + 
+                " and deploying cloud services";
+            break; 
+            case 6:  
                 skills_item_selected_description.style.cssText =
                 `
                 font-size: 0.75rem;
                 `
-                skills_item_selected_description.innerText = "Java \n Linguagem de alto nível orientada a objetos" + 
-                " e multiplataforma (apps empresariais, web e mobile)";
+                skills_item_selected_description.innerText = "Java \n High-level OOP cross" + 
+                "-platform language (enterprise, web, and mobile apps)";
             break;
             case 7:
                 skills_item_selected_description.style.cssText =
                 `
                 font-size: 0.65rem;
                 `
-                skills_item_selected_description.innerText = "NodeJS \n Possibilita o uso do JavaScript tanto no lado do cliente" + 
-                " quanto no lado do servidor, facilitando o desenvolvimento de apps em uma linguagem unificada";
-            break;
+                skills_item_selected_description.innerText = "NodeJS \n Enables the use of JavaScript on both the client and" + 
+                " server sides, making it easy to develop apps in a unified language";
+            break;   
             case 8:
                 skills_item_selected_description.style.cssText =
                 `
                 font-size: 0.7rem;
                 `
-                skills_item_selected_description.innerText = "Angular \n Framework front-end poderoso e modular," + 
-                " desenvolvido pelo Google para criar aplicações web SPA interativas e escaláveis";
-            break;
+                skills_item_selected_description.innerText = "Angular \n Powerful and modular front-end framework," + 
+                " developed by Google to create interactive and scalable SPA web applications";
+            break;  
             case 9:
                 skills_item_selected_description.style.cssText =
                 `
                 font-size: 0.65rem;
                 `
-                skills_item_selected_description.innerText = "Notion \n Ferramenta para gestão pessoal e dinamização de anotações" + 
-                " em modelo de páginas com ampla compatibilidade e integração de serviços";
-            break;
+                skills_item_selected_description.innerText = "Notion \n Tool for personal management and streamlining" + 
+                " of annotations in page template with wide compatibility and integration of services";
+            break;  
             case 10:
                 skills_item_selected_description.style.cssText =
                 `
-                font-size: 0.85rem;
+                font-size: 0.9rem;
                 `
-                skills_item_selected_description.innerText = "MySQL \n Banco de dados relacional de código" + 
-                "  aberto amplamente utilizado";
+                skills_item_selected_description.innerText = "MySQL \n Widely Used Open Source Relational Database";
             break;
             
         

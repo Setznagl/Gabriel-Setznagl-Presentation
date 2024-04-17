@@ -1,4 +1,3 @@
-@media (max-width:425px){
     .contact_container{
         flex-flow: row wrap;
         background-color: var(--secondary-color-04);
@@ -9,10 +8,14 @@
         width: 3rem;
         height: 3rem;
         background-image: url(/home/Assets/email-icon.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
     footer > section > figure:hover{
         background-image: url(/home/Assets/email-icon-open.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
     footer > section > figure > a{
@@ -39,4 +42,3 @@
         font-size: 0.3rem;
     }
 
-}
