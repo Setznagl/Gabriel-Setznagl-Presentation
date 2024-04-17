@@ -63,3 +63,33 @@
         text-decoration: none;
     }
 
+
+@media (min-width: 1100px) and (max-width: 6200px) {
+    .nav__menu-hamburguer__container{
+        background-color: var(--secondary-color-02);
+        position: relative;
+        top: 4.0rem;
+        right: 0rem;
+        height: 10rem;
+        width: 12rem;
+        display: none;
+        border-radius: 0rem 0rem 0rem 2.5rem;
+    }
+    .nav__menu__vertical-item{
+        font-family: var(--primary-font-family);
+        text-shadow: 0 0.1rem 0.2rem rgba(0,0,0,0.35);
+        margin: 0.65rem 0 0.65rem 0;
+    }
+    interactive-menu-close{
+        display: block;
+        width: 3rem;
+        height: 3rem;
+        background-image: url(/home/Assets/arrow-to-change-state.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: 0s;
+        position: relative;
+        top: -5rem;
+        left: 0.45rem;
+    }
+}

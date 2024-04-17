@@ -90,4 +90,19 @@
     }
 
 
-
+@media (min-width: 1100px) and (max-width: 6200px) {
+    .nav-container{height: 1.2rem;}
+    left-icon-one{
+        width: 1rem;
+        height: 1rem;
+    }
+    left-icon-two{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+    interactive-menu{
+        margin-right: 5%;
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+}
