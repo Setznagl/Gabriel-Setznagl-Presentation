@@ -87,7 +87,7 @@
     margin: 0 auto;
 }
 .relative_container{
-    position: relative; /*Container pai é o absolute*/
+    position: relative; /*Container pai é o absolute */
 }
 @media (min-width: 0px) and (max-width: 219px) { html{ font-size: var(--rem-devices-ultra-small);}}
 @media (min-width: 220px) and (max-width: 264px) { html{ font-size: var(--rem-devices-220);}}
