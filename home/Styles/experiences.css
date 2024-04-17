@@ -38,6 +38,7 @@
         }
 
         position{
+            box-sizing: border-box;
             font-size: 0.9rem;
             color: var(--secondary-color-01);
         }
