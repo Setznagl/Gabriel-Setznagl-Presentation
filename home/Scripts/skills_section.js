@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', function() {
             case 1:
                 skills_item_selected_description.style.cssText =
                 `
-                font-size: 0.8rem;
+                font-size: 0.7rem;
                 `
                 skills_item_selected_description.innerText = "HTML-5 \n Markup language for structuring simple" + 
                 " and complex web pages";
@@ -292,7 +292,7 @@ document.addEventListener('DOMContentLoaded', function() {
             case 2: 
                 skills_item_selected_description.style.cssText =
                 `
-                font-size: 0.8rem;
+                font-size: 0.7rem;
                 `
                 skills_item_selected_description.innerText = "CSS-3 \n Web styling language with cascading" + 
                 " rule inheritance";                       
@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
             case 3:
                 skills_item_selected_description.style.cssText =
                 `
-                font-size: 0.7rem;
+                font-size: 0.65rem;
                 `
                 skills_item_selected_description.innerText = "JavaScript \n High-level language " + 
                 " often applied in dynamic interactions on web pages";
@@ -308,7 +308,7 @@ document.addEventListener('DOMContentLoaded', function() {
             case 4:
                 skills_item_selected_description.style.cssText =
                 `
-                font-size: 0.8rem;
+                font-size: 0.7rem;
                 `
                 skills_item_selected_description.innerText = "GIT \n Tool for versioning" + 
                 " and code maintenance";  
@@ -316,7 +316,7 @@ document.addEventListener('DOMContentLoaded', function() {
             case 5:
                 skills_item_selected_description.style.cssText = 
                 `
-                font-size: 0.8rem;
+                font-size: 0.7rem;
                 `
                 skills_item_selected_description.innerText = "Azure \n Platform for managing" + 
                 " and deploying cloud services";
@@ -324,7 +324,7 @@ document.addEventListener('DOMContentLoaded', function() {
             case 6:  
                 skills_item_selected_description.style.cssText =
                 `
-                font-size: 0.75rem;
+                font-size: 0.65rem;
                 `
                 skills_item_selected_description.innerText = "Java \n High-level OOP cross" + 
                 "-platform language (enterprise, web, and mobile apps)";
@@ -340,7 +340,7 @@ document.addEventListener('DOMContentLoaded', function() {
             case 8:
                 skills_item_selected_description.style.cssText =
                 `
-                font-size: 0.7rem;
+                font-size: 0.65rem;
                 `
                 skills_item_selected_description.innerText = "Angular \n Powerful and modular front-end framework," + 
                 " developed by Google to create interactive and scalable SPA web applications";
@@ -348,7 +348,7 @@ document.addEventListener('DOMContentLoaded', function() {
             case 9:
                 skills_item_selected_description.style.cssText =
                 `
-                font-size: 0.65rem;
+                font-size: 0.60rem;
                 `
                 skills_item_selected_description.innerText = "Notion \n Tool for personal management and streamlining" + 
                 " of annotations in page template with wide compatibility and integration of services";
@@ -356,7 +356,7 @@ document.addEventListener('DOMContentLoaded', function() {
             case 10:
                 skills_item_selected_description.style.cssText =
                 `
-                font-size: 0.9rem;
+                font-size: 0.8rem;
                 `
                 skills_item_selected_description.innerText = "MySQL \n Widely Used Open Source Relational Database";
             break;
