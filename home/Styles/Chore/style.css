@@ -8,7 +8,18 @@
 @import url(/home/Styles/contact.css);
 @import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@font-face {
+    font-family: 'Tinos';
+    src: url(/PersonalCSS/Font\ Families/Tinos/Tinos-Regular.ttf) format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nexa';
+    src: url(/PersonalCSS/Font\ Families/nexa/Nexa-Heavy.ttf) format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 :root{
   --primary-color-light:#A9907E;
   --primary-color-dark:#675D50;
@@ -42,23 +53,22 @@
   --rem-devices-2900: 96px;
   --rem-devices-3100: 102px;
   --rem-devices-6200: 204px;
-  --primary-font-family: "Tinos";
-  --secondary-font-family: "Arial";
+  --primary-font-family: 'Tinos' , sans-serif;
+  --secondary-font-family: "Tinos";
 }
 
-.flexbox__container{
+html{
+    font-family: var(--primary-font-family);
+}
+
+.flexbox_container{
     box-sizing: border-box;
     display: flex;
     width: var(--container-width);
     margin: 0 auto;
 }
 
-.just__flexbox__simple__container{
-    box-sizing: border-box;
-    display: flex;
-    margin: 0 auto;
-    width: 100%;}
-.flexbox_simple_container_with_custom_width{
+.flexbox_simple_container{
     box-sizing: border-box;
     display: flex;
     margin: 0 auto;
@@ -67,20 +77,35 @@
 .centralize_flexbox_vertical_items{
     flex-flow: column wrap;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+}
+
 .centralize_flexbox_horizontal_items{
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
 }
 
-.grid__container{
+.justify_flexbox_horizontal_items{
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around; /*change*/
+}
+
+.justify_flexbox_vertical_items{
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around; /*change*/
+}
+
+.grid_container{
     box-sizing: border-box;
     display: grid;
-    width: var();
+    width: var(--container-width);
     margin: 0 auto;
 }
-.block__container{
+
+.block_container{
     box-sizing: border-box;
     display: block;
     width: var(--primary-container-width);
@@ -89,6 +114,7 @@
 .relative_container{
     position: relative; /*Container pai é o absolute */
 }
+
 @media (min-width: 0px) and (max-width: 219px) { html{ font-size: var(--rem-devices-ultra-small);}}
 @media (min-width: 220px) and (max-width: 264px) { html{ font-size: var(--rem-devices-220);}}
 @media (min-width: 265px) and (max-width: 299px) { html{ font-size: var(--rem-devices-265);}}
@@ -111,6 +137,7 @@
 @media (min-width: 2701px) and (max-width: 2900px) { html{ font-size: var(--rem-devices-2900);}}
 @media (min-width: 2901px) and (max-width: 3100px) { html{ font-size: var(--rem-devices-3100);}}
 @media (min-width: 3101px) and (max-width: 6200px) { html{ font-size: var(--rem-devices-6200);}}
+
 
 
 
