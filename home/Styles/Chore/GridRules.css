@@ -1,0 +1,19 @@
+.gridTemplateAreas{
+    display: grid;
+    grid-template-areas: 
+    header header header
+    main main main
+    footer footer footer;
+}
+
+.labelHeader{
+    grid-area: header;
+}
+
+.labelMain{
+    grid-area: main;
+}
+
+.labelFooter{
+    grid-area: footer;
+}
