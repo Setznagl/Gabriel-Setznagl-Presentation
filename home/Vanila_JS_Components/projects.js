@@ -1,6 +1,52 @@
-document.addEventListener('DOMContentLoaded', function() {
-        const hover_card_list = document.querySelectorAll('.hover-card');
-        const hover_card_effect_list = document.querySelectorAll('.hover-card-effect');
+class ProjectsComponent extends HTMLElement {
+    constructor() {
+        super();
+
+        const shadow = this.attachShadow({ mode: "open" });
+        shadow.innerHTML =
+            `
+            <section class="flexbox_simple_container projects_container">
+                <div id="projects_title" class="flexbox_simple_container">
+                    Projects
+                </div>
+            <projects-full-card class="flexbox_simple_container">
+
+                <projects-card>
+                    <div id="hover-bg-1" class="hover-card">
+                        <a href="https://pokedex-dio-santander-bootcamp.vercel.app/" target="_blank"></a>
+                    </div>
+                    <div class="hover-card-effect"></div>
+                </projects-card>
+
+                <projects-card>
+                    <div id="hover-bg-2" class="hover-card">
+                        <a></a>
+                    </div>
+                    <div class="hover-card-effect"></div>
+                </projects-card>
+
+                <projects-card>
+                   <div id="hover-bg-3" class="hover-card">
+                        <a></a>
+                   </div>
+                   <div class="hover-card-effect"></div>
+                </projects-card>
+                
+            </projects_full_card>
+            </section>
+            `
+        const css1 = document.createElement("link");
+        css1.rel = "stylesheet";
+        css1.href = "/home/Styles/Chore/reset.css";
+        shadow.appendChild(css1);
+    
+        const css2 = document.createElement("link");
+        css2.rel = "stylesheet";
+        css2.href = "/home/Styles/Chore/style.css";
+        shadow.appendChild(css2);
+
+        const hover_card_list = shadow.querySelectorAll('.hover-card');
+        const hover_card_effect_list = shadow.querySelectorAll('.hover-card-effect');
 
         const hover_card_item_1 = hover_card_list[0]; // Primeiro elemento
         const hover_card_item_2 = hover_card_list[1]; // Segundo elemento
@@ -101,8 +147,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     hover_effect_close(hover_card_effect_item_3);
                     hover_close(hover_card_item_3);
                 }
-            });
-            //////////////////////////////////////////////////////////////////
-   
-    
-}); 
+            }); 
+    }
+}
+
+customElements.define("projects-component", ProjectsComponent );
