@@ -3,98 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/home/Styles/Skills/swiper.css">
+    <!-- Swiper Details -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <!-- Swiper Details-->    
     <link rel="stylesheet" href="/home/Styles/Chore/reset.css">
     <link rel="stylesheet" href="/home/Styles/Chore/style.css">
     <title>Avaliações</title>
 </head>
 <body>
 
-    <section>
-        <div id="testimonials">
-            <div id="testimonials_header">
-                <h1>Other Skills</h1>
-                <h2>API and Library</h2>
-                <p>
-                    Interconnecting services and data by API request flow, 
-                    reducing base HTML code that can fullfield by a Mock or 
-                    dynamically rendered with data received by the API. 
-                </p>
-            </div>
-            <div class="swiper">
-                <div class="swiper-wrapper" id="testimonial-container">
-                    <!-- Os slides dinâmicos serão inseridos aqui -->
-                </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-scrollbar"></div>
-            </div>
-        </div>
-    </section>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        async function loadTestimonials() {
-            const container = document.getElementById('testimonial-container');
-            const response = await fetch('https://randomuser.me/api/?results=5');
-            const data = await response.json();
-        
-        const testimonials = data.results.map(user => ({
-            name: `${user.name.first} ${user.name.last}`,
-            picture: user.picture.large,
-            comment: "This is an example using Randomuser API!",
-            since: `Cliente desde ${new Date(user.registered.date).getFullYear()}`
-        }));
-
-        function createSlide(testimonial) {
-            return `
-                <div class="swiper-slide">
-                    <div class="testimonial-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <blockquote class="testimonial-quote">
-                        "${testimonial.comment}"
-                    </blockquote>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">
-                            <img src="${testimonial.picture}" alt="Imagem de uma pessoa">
-                        </div>
-                        <div class="author-info">
-                            <h3>${testimonial.name}</h3>
-                            <p>${testimonial.since}</p>
-                        </div>
-                    </div>
-                </div>
-            `;
-        }
-
-        testimonials.forEach(testimonial => {
-            container.innerHTML += createSlide(testimonial);
-            swiper.update()
-        });
-
-        }
-        
-        loadTestimonials();
-
-        var swiper = new Swiper(".swiper", {
-        loop: true, grabCursor: true,
-        navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev",},
-        pagination: { el: ".swiper-pagination", clickable: true },
-        breakpoints: { 
-            640: { slidesPerView: 1, spaceBetween: 18 },
-            768: { slidesPerView: 2, spaceBetween: 18 },
-            1188: { slidesPerView: 3, spaceBetween: 24}
-        }});
-    </script>
-
+    
 
 </body>
 </html>

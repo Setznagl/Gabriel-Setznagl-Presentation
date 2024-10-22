@@ -2,11 +2,12 @@
 @import url(/home/Styles/Nav/interactive_menu.css);
 @import url(/home/Styles/About/introduction.css);
 @import url(/home/Styles/About/about.css);
-@import url(/home/Styles/About/experiences.css);
+@import url(/home/Styles/About/experiences.css); 
 @import url(/home/Styles/Contact/skills.css);
 @import url(/home/Styles/Contact/projects.css);
-@import url(/home/Styles/Contact/contact.css);
-@import url(/home/Styles/Chore/GridRules.css);
+@import url(/home/Styles/Contact/contact.css); 
+@import url(/home/Styles/Chore/GridRules.css);  
+@import url(/home/Styles/Skills/swiper.css);
 @import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @font-face {
@@ -28,6 +29,9 @@
   --secondary-color-02:#ABC4AA;
   --secondary-color-03:#ffcb71;
   --secondary-color-04:#6C3428;
+  --secondary-color-05:#200c08;
+  --secondary-color-06:#000000;
+  --secondary-color-07:#ffffff;;
   --container-width: 100vw;
   --regra-disposicao-grid-items: min(100vw/2, max(167px,100vw/6));
   --regra-disposicao-flex-items: min(100vw/3, max(5rem,100vw/3));
