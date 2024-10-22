@@ -36,7 +36,7 @@ class HeaderComponent extends HTMLElement {
                             <a href="projects.html">Projects</a>
                         </li>
                         <li class="nav__menu__vertical-item">
-                            <a href=" ">Contact</a>
+                            <a href="#">Contact</a>
                         </li>
                     </ul>
                     <interactive-menu-close>
