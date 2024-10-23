@@ -8,7 +8,7 @@ class IntroductionComponent extends HTMLElement {
             <introduction>
                 <div id="introduction_name">Gabriel Setznagl</div>
                 <div id="introduction_title">Full-Stack Developer</div>
-                <a id="ab-me-anchor" href="#"><div id="introduction_arrow"></div></a>
+                <a href="#cont-anchor"><div id="introduction_arrow"></div></a>
             </introduction>
             `
         const css1 = document.createElement("link");
