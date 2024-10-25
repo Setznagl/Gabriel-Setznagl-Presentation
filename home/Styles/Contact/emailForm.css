@@ -1,0 +1,70 @@
+.contact-form-section {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    background-color: var(--secondary-color-01); /* Background claro */
+    color: var(--secondary-color-06); /* Texto preto */
+    font-family: var(--primary-font-family);
+  }
+  
+  form {
+    background-color: var(--secondary-color-07); /* Branco */
+    padding: 0.8rem;
+    border-radius: 0.2rem;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 15rem;
+  }
+  
+  #contactUs {
+    text-align: center;
+    color: var(--primary-color-dark); /* Título em tom escuro */
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    margin-bottom: 0.75rem;
+    width: 100%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: var(--primary-color-dark); /* Cor do label */
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--secondary-color-02); /* Borda suave */
+    border-radius: 4px;
+    font-size: 0.75rem;
+    background-color: var(--secondary-color-07); /* Fundo branco */
+  }
+  
+  textarea {
+    height: 3rem;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--secondary-color-03); /* Amarelo forte */
+    color: var(--secondary-color-07); /* Branco */
+    border: none;
+    border-radius: 0.1rem;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--primary-color-dark); /* Escurecer no hover */
+  }
+  
+  #response-message {
+    text-align: center;
+    margin-top: 0.8rem;
+    color: var(--primary-color-dark); /* Mensagem de resposta */
+  }
+  

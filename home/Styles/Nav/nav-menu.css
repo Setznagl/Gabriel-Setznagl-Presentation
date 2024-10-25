@@ -23,7 +23,7 @@
             } 
         left-icons>left-icon-two>img{ 
             width: 1.5rem; 
-            }
+            }   
 
         left-icon-one{
             width: 2rem;
@@ -61,7 +61,6 @@
     right-icon{
         justify-content: end;
         width: 50%;
-       
     }
         /*------------------------*/
     interactive-menu{
@@ -71,6 +70,7 @@
         background-image: url(/home/Assets/arrow-to-change-state.svg);
         background-repeat: no-repeat;
         background-size: contain;
+        cursor: pointer;
         transition: 0s;
     }
     interactive-menu:hover{

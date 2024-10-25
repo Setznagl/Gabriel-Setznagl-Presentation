@@ -12,7 +12,7 @@ class FooterComponent extends HTMLElement {
                     <p id="contact-email">comercialgabrielsetznagl@gmail.com</p>
                 </div>
                 <figure>
-                    <a href="mailto:comercialgabrielsetznagl@gmail.com"></a>
+                    <a href="contact.html"></a>
                 </figure>
             </section>
         </footer>

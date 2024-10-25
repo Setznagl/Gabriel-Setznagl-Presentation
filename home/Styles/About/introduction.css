@@ -1,18 +1,32 @@
-    #introduction_name{
-        font-family: var(--primary-font-family);
-        color: var(--secondary-color-01);
-        margin-top: 3rem;
-    }
-    #introduction_title{
-        font-family: var(--primary-font-family);
-        color: var(--secondary-color-03);
-    }
-    #introduction_arrow{
-        width: 1.6rem;
-        height: 1.6rem;
-        background-image: url(/home/Assets/scroll-arrow-down.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
+#introduction_name {
+  font-family: var(--primary-font-family);
+  color: var(--secondary-color-01);
+  margin-top: 3rem;
+}
+#introduction_title {
+  font-family: var(--primary-font-family);
+  color: var(--secondary-color-03);
+}
+#introduction_arrow {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-image: url(/home/Assets/scroll-arrow-down.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
+#empty-introduction {
+  height: 3rem;
+}
 
+@media (min-width: 0px) and (max-width: 600px) {
+    #empty-introduction {
+        height: 3rem;
+    }
+}
+
+@media (min-width: 900px){
+    #empty-introduction {
+        height: 1rem;
+    }
+}
