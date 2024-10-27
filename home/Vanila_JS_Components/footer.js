@@ -11,7 +11,7 @@ class FooterComponent extends HTMLElement {
                     <p>&#127463&#127479 - Paraná - Londrina</p>
                     <p id="contact-email">comercialgabrielsetznagl@gmail.com</p>
                 </div>
-                <figure>
+                <figure id="cont-anchor">
                     <a href="contact.html"></a>
                 </figure>
             </section>
