@@ -67,6 +67,12 @@ html{
     font-family: var(--primary-font-family);
 }
 
+body{
+    background-color: var(--secondary-color-04);
+    width: 100vw;
+    height: 100vh;
+}
+
 .flexbox_container{
     box-sizing: border-box;
     display: flex;
