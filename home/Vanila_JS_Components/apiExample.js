@@ -60,7 +60,7 @@ class APIexampleComponent extends HTMLElement {
                 name: `${user.name.first} ${user.name.last}`,
                 picture: user.picture.large,
                 comment: `This is an example using<br>Randomuser API!`,
-                since: `Cliente desde ${new Date(user.registered.date).getFullYear()}`
+                since: `Customer since ${new Date(user.registered.date).getFullYear()}`
             }));
 
             function createSlide(testimonial) {
