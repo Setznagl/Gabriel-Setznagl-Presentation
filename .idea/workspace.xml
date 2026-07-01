@@ -7,20 +7,10 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2911f6ae-5474-4f14-97f7-18f91c17ecff" name="Changes" comment="feat: :sparkles: Add initial &#10;Claude Code project files remake, including HTML, CSS, JS, and configuration XMLs">
-      <change afterPath="$PROJECT_DIR$/home/assets/script/components/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/assets/script/components/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/assets/script/components/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/assets/script/components/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/assets/script/components/projects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/assets/script/components/stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/assets/script/components/timeline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/assets/script/template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+    <list default="true" id="2911f6ae-5474-4f14-97f7-18f91c17ecff" name="Changes" comment="feat: :sparkles: Component modularization using vanilla JS Components">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/assets/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/assets/page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/assets/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/home/assets/script/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/assets/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/assets/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +153,7 @@
       <workItem from="1782682660022" duration="41000" />
       <workItem from="1782682710721" duration="6562000" />
       <workItem from="1782771191686" duration="2983000" />
-      <workItem from="1782840309546" duration="31407000" />
+      <workItem from="1782840309546" duration="33264000" />
     </task>
     <task id="LOCAL-00001" summary="feat: :sparkles: Add initial &#10;Claude Code project files remake, including HTML, CSS, JS, and configuration XMLs">
       <option name="closed" value="true" />
@@ -173,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782861118405</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: :sparkles: Component modularization using vanilla JS Components">
+      <option name="closed" value="true" />
+      <created>1782896547599</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1782896547599</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +179,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: :sparkles: Add initial &#10;Claude Code project files remake, including HTML, CSS, JS, and configuration XMLs" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: :sparkles: Add initial &#10;Claude Code project files remake, including HTML, CSS, JS, and configuration XMLs" />
+    <MESSAGE value="feat: :sparkles: Component modularization using vanilla JS Components" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: :sparkles: Component modularization using vanilla JS Components" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
