@@ -36,50 +36,59 @@ class ProjectsComponent extends HTMLElement {
     
                 <div class="project-card">
                   <div class="project-card__img-wrap">
-                    <img src="https://placehold.co/600x340/1a1a2e/7c3aed?text=Portfolio+v1.0" alt="Portfolio v1.0 website" class="project-card__img" />
+                    <img src="https://placehold.co/600x340/1a1a2e/7c3aed?text=AVA+FullStack+2026" alt="Atlantico Avanti 2026" class="project-card__img" />
                     <div class="project-card__overlay">
-                      <a href="https://gabriel-setznagl-presentation.vercel.app/" target="_blank" rel="noopener" class="project-card__action">Live ↗</a>
-                      <a href="https://github.com/Setznagl/Gabriel-Setznagl-Presentation" target="_blank" rel="noopener" class="project-card__action">Code ↗</a>
+                      <a rel="noopener" class="project-card__action">Live ↗</a>
+                      <a href="https://github.com/VitorPantojaDev/AVA-DESENVOLVIMENTO-FULL-STACK-B-SICO-PROJETO-DFS-2026.2" target="_blank" rel="noopener" class="project-card__action">Code ↗</a>
                     </div>
                   </div>
                   <div class="project-card__body">
                     <div class="project-card__tags">
-                      <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span>
+                      <span class="tag">HTML5</span>
+                      <span class="tag">CSS3</span>
+                      <span class="tag">JavaScript</span>
+                      <span class="tag">TypeScript</span>
+                      <span class="tag">Express.js</span>
+                      <span class="tag">Prisma ORM</span>
+                      <span class="tag">React</span>
+                      <span class="tag">PostgreSQL</span>
+                      <span class="tag">Docker</span>
                     </div>
-                    <h3 class="project-card__title">Portfolio v1.0</h3>
-                    <p class="project-card__desc">Personal portfolio site — Presentation 1.0. Multipage layout covering skills, projects, experience, and contact, built from a Figma prototype.</p>
+                    <h3 class="project-card__title">Bootcamp Atlantico Avanti 2026</h3>
+                    <p class="project-card__desc">
+                    Projeto em grupo de conclusão do bootcamp AVA Full-Stack 2026 com temática escolhida pelo corpo docente 
+                    em um sistema de agendamento de quadras esportivas, usando como base: Express.js, Prisma ORM e React.
+                    </p>
                   </div>
                 </div>
     
                 <div class="project-card">
                   <div class="project-card__img-wrap">
-                    <img src="https://placehold.co/600x340/1a1a2e/7c3aed?text=Java+Spring+API" alt="Java Spring Boot REST API" class="project-card__img" />
+                    <img src="https://placehold.co/600x340/1a1a2e/7c3aed?text=_" alt="" class="project-card__img" />
                     <div class="project-card__overlay">
-                      <span class="project-card__action project-card__action--disabled">Coming soon</span>
+                      <span class="project-card__action project-card__action--disabled">_</span>
                     </div>
                   </div>
                   <div class="project-card__body">
                     <div class="project-card__tags">
-                      <span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">PostgreSQL</span><span class="tag">Docker</span>
                     </div>
-                    <h3 class="project-card__title">RESTful API — Spring Boot</h3>
-                    <p class="project-card__desc">Backend REST API built with Spring Boot and Hibernate, containerized with Docker. Covers CRUD, JWT auth, and PostgreSQL persistence.</p>
+                    <h3 class="project-card__title"></h3>
+                    <p class="project-card__desc"></p>
                   </div>
                 </div>
     
                 <div class="project-card">
                   <div class="project-card__img-wrap">
-                    <img src="https://placehold.co/600x340/1a1a2e/7c3aed?text=React+Frontend" alt="React and Node.js fullstack app" class="project-card__img" />
+                    <img src="https://placehold.co/600x340/1a1a2e/7c3aed?text=_" alt="" class="project-card__img" />
                     <div class="project-card__overlay">
-                      <span class="project-card__action project-card__action--disabled">Coming soon</span>
+                      <span class="project-card__action project-card__action--disabled">_</span>
                     </div>
                   </div>
                   <div class="project-card__body">
                     <div class="project-card__tags">
-                      <span class="tag">React</span><span class="tag">NodeJS</span><span class="tag">MySQL</span>
                     </div>
-                    <h3 class="project-card__title">Fullstack App — React + Node</h3>
-                    <p class="project-card__desc">End-to-end web application connecting a React frontend to a Node.js backend with MySQL, exploring component architecture and REST integration.</p>
+                    <h3 class="project-card__title"></h3>
+                    <p class="project-card__desc"></p>
                   </div>
                 </div>
     
