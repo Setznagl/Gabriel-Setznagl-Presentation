@@ -39,7 +39,7 @@ class ProjectsComponent extends HTMLElement {
                     <img src="https://placehold.co/600x340/1a1a2e/7c3aed?text=AVA+FullStack+2026" alt="Atlantico Avanti 2026" class="project-card__img" />
                     <div class="project-card__overlay">
                       <a rel="noopener" class="project-card__action">Live ↗</a>
-                      <a href="https://github.com/VitorPantojaDev/AVA-DESENVOLVIMENTO-FULL-STACK-B-SICO-PROJETO-DFS-2026.2" target="_blank" rel="noopener" class="project-card__action">Code ↗</a>
+                      <a href="https://github.com/Setznagl/AVA-Full-Stack-2026-Group_04_Project" target="_blank" rel="noopener" class="project-card__action">Code ↗</a>
                     </div>
                   </div>
                   <div class="project-card__body">
@@ -56,8 +56,8 @@ class ProjectsComponent extends HTMLElement {
                     </div>
                     <h3 class="project-card__title">Bootcamp Atlantico Avanti 2026</h3>
                     <p class="project-card__desc">
-                    Projeto em grupo de conclusão do bootcamp AVA Full-Stack 2026 com temática escolhida pelo corpo docente 
-                    em um sistema de agendamento de quadras esportivas, usando como base: Express.js, Prisma ORM e React.
+                    Group project to conclude the AVA Full-Stack 2026 bootcamp, with a theme chosen by the faculty,
+                    focusing on a sports court scheduling system, built using Express.js, Prisma ORM, and React.
                     </p>
                   </div>
                 </div>
