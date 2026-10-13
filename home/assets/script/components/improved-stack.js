@@ -1,24 +1,24 @@
 // noinspection JSUnusedGlobalSymbols
 class ImprovedStackComponent extends HTMLElement {
     static SKILLS = [
-        { name: 'Java', icon: '☕', category: 'backend', frequency: 'daily', stage: 'deployed', deployUrl: '#' },
-        { name: 'Maven', icon: '📦', category: 'backend', frequency: 'weekly', stage: 'built', deployUrl: '#' },
-        { name: 'Hibernate', icon: '🗄', category: 'backend', frequency: 'weekly', stage: 'built', deployUrl: '#' },
-        { name: 'Spring Boot', icon: '🌱', category: 'backend', frequency: 'daily', stage: 'deployed', deployUrl: '#' },
-        { name: 'Node.js', icon: '🟢', category: 'backend', frequency: 'occasional', stage: 'studied', deployUrl: '#' },
-        { name: 'HTML5', icon: '🧱', category: 'frontend', frequency: 'daily', stage: 'deployed', deployUrl: '#' },
-        { name: 'CSS3', icon: '🎨', category: 'frontend', frequency: 'weekly', stage: 'deployed', deployUrl: '#' },
-        { name: 'JavaScript', icon: '⚡', category: 'frontend', frequency: 'weekly', stage: 'built', deployUrl: '#' },
-        { name: 'React', icon: '⚛️', category: 'frontend', frequency: 'occasional', stage: 'built', deployUrl: '#' },
-        { name: 'PostgreSQL', icon: '🐘', category: 'database', frequency: 'weekly', stage: 'deployed', deployUrl: '#' },
-        { name: 'MySQL', icon: '🗃', category: 'database', frequency: 'occasional', stage: 'studied', deployUrl: '#' },
-        { name: 'Git & GitHub', icon: '🔀', category: 'tools', frequency: 'daily', stage: 'deployed', deployUrl: '#' },
-        { name: 'Docker', icon: '🐳', category: 'tools', frequency: 'occasional', stage: 'built', deployUrl: '#' },
-        { name: 'Postman', icon: '📬', category: 'tools', frequency: 'weekly', stage: 'built', deployUrl: '#' },
-        { name: 'JUnit & Mockito', icon: '🧪', category: 'tools', frequency: 'occasional', stage: 'studied', deployUrl: '#' },
+        { name: 'Java', icon: '☕', category: 'backend', frequency: 'frequently', stage: 'built', deployUrl: '#' },
+        { name: 'Maven', icon: '📦', category: 'backend', frequency: 'periodically', stage: 'built', deployUrl: '#' },
+        { name: 'Hibernate', icon: '🗄', category: 'backend', frequency: 'periodically', stage: 'built', deployUrl: '#' },
+        { name: 'Spring Boot', icon: '🌱', category: 'backend', frequency: 'occasional', stage: 'basics', deployUrl: '#' },
+        { name: 'Node.js', icon: '🟢', category: 'backend', frequency: 'periodically', stage: 'deployed', deployUrl: '#' },
+        { name: 'HTML5', icon: '🧱', category: 'frontend', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
+        { name: 'CSS3', icon: '🎨', category: 'frontend', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
+        { name: 'JavaScript', icon: '⚡', category: 'frontend', frequency: 'periodically', stage: 'deployed', deployUrl: '#' },
+        { name: 'React', icon: '⚛️', category: 'frontend', frequency: 'occasional', stage: 'deployed', deployUrl: '#' },
+        { name: 'PostgreSQL', icon: '🐘', category: 'database', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
+        { name: 'MySQL', icon: '🗃', category: 'database', frequency: 'occasional', stage: 'basics', deployUrl: '#' },
+        { name: 'Git & GitHub', icon: '🔀', category: 'tools', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
+        { name: 'Docker', icon: '🐳', category: 'tools', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
+        { name: 'Postman', icon: '📬', category: 'tools', frequency: 'periodically', stage: 'deployed', deployUrl: '#' },
+        { name: 'JUnit & Mockito', icon: '🧪', category: 'backend', frequency: 'occasional', stage: 'basics', deployUrl: '#' },
     ];
 
-    static STAGES = ['studied', 'built', 'deployed'];
+    static STAGES = ['basics', 'built', 'deployed'];
 
     constructor() {
         super();
@@ -192,11 +192,11 @@ class ImprovedStackComponent extends HTMLElement {
           background: rgba(136, 136, 170, 0.28);
         }
 
-        .skill-card[data-frequency='daily'] .skill-card__pip.is-active { background: #22c55e; box-shadow: 0 0 0.4rem rgba(34, 197, 94, 0.32); }
-        .skill-card[data-frequency='weekly'] .skill-card__pip.is-active { background: var(--purple-light); box-shadow: 0 0 0.4rem rgba(167, 139, 250, 0.3); }
+        .skill-card[data-frequency='frequently'] .skill-card__pip.is-active { background: #22c55e; box-shadow: 0 0 0.4rem rgba(34, 197, 94, 0.32); }
+        .skill-card[data-frequency='periodically'] .skill-card__pip.is-active { background: var(--purple-light); box-shadow: 0 0 0.4rem rgba(167, 139, 250, 0.3); }
         .skill-card[data-frequency='occasional'] .skill-card__pip.is-active { background: #f59e0b; box-shadow: 0 0 0.4rem rgba(245, 158, 11, 0.28); }
-        .skill-card[data-frequency='daily'] .skill-card__frequency-label { color: #22c55e; }
-        .skill-card[data-frequency='weekly'] .skill-card__frequency-label { color: var(--purple-light); }
+        .skill-card[data-frequency='frequently'] .skill-card__frequency-label { color: #22c55e; }
+        .skill-card[data-frequency='periodically'] .skill-card__frequency-label { color: var(--purple-light); }
         .skill-card[data-frequency='occasional'] .skill-card__frequency-label { color: #f59e0b; }
 
         .skill-card__evidence {
@@ -209,12 +209,12 @@ class ImprovedStackComponent extends HTMLElement {
         .skill-card__stage {
           display: inline-flex;
           align-items: center;
-          gap: 0.3rem;
-          min-width: 0;
+          gap: 0.15rem;
+          min-width: 0.57rem;
           color: var(--text-dim);
           font-family: var(--font-mono), serif;
           font-size: 0.57rem;
-          letter-spacing: 0.035em;
+          letter-spacing: 0.0005em;
           text-transform: uppercase;
           white-space: nowrap;
         }
@@ -280,8 +280,8 @@ class ImprovedStackComponent extends HTMLElement {
           .skill-card__head { grid-template-columns: 1.8rem minmax(0, 1fr) auto; gap: 0.45rem; }
           .skill-card__icon { width: 1.8rem; height: 1.8rem; }
           .skill-card__evidence { gap: 0.22rem; }
-          .skill-card__stage { gap: 0.2rem; font-size: 0.51rem; }
-          .skill-card__stage svg { width: 0.78rem; height: 0.78rem; }
+          .skill-card__stage { gap: 0.2rem; font-size: 0.45rem; }
+          .skill-card__stage svg { width: 0.78rem; height: 0.45rem; }
         }
         `;
 
@@ -314,7 +314,7 @@ class ImprovedStackComponent extends HTMLElement {
 
     skillCard(skill) {
         const currentStage = ImprovedStackComponent.STAGES.indexOf(skill.stage);
-        const frequencyStrength = { daily: 3, weekly: 2, occasional: 1 }[skill.frequency];
+        const frequencyStrength = { frequently: 3, periodically: 2, occasional: 1 }[skill.frequency];
 
         const stages = ImprovedStackComponent.STAGES.map((stage, index) => {
             const classes = [
@@ -357,7 +357,7 @@ class ImprovedStackComponent extends HTMLElement {
 
     stageIcon(stage) {
         const icons = {
-            studied: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4.5A3.5 3.5 0 0 1 5.5 1H11v18H5.5A3.5 3.5 0 0 0 2 22.5z"/><path d="M22 4.5A3.5 3.5 0 0 0 18.5 1H13v18h5.5a3.5 3.5 0 0 1 3.5 3.5z"/></svg>',
+            basics: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4.5A3.5 3.5 0 0 1 5.5 1H11v18H5.5A3.5 3.5 0 0 0 2 22.5z"/><path d="M22 4.5A3.5 3.5 0 0 0 18.5 1H13v18h5.5a3.5 3.5 0 0 1 3.5 3.5z"/></svg>',
             built: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5-5l2.1 2.1-8.4 8.4a2 2 0 0 0 2.8 2.8l8.4-8.4z"/><path d="m12 14 6.5 6.5a2 2 0 0 0 2.8-2.8L14.8 11"/></svg>',
             deployed: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 16.5c-1.5 1.3-2 5-2 5s3.7-.5 5-2c.8-.9.8-2.3-.1-3.1a2.2 2.2 0 0 0-2.9.1z"/><path d="m9 15-3-3s.5-1.5 2-3c1.5-1.5 5-2 5-2l4 4s-.5 3.5-2 5c-1.5 1.5-3 2-3 2z"/><path d="M13 7c0-2 2-4 6-4 0 4-2 6-4 6"/><path d="M9 15H4v-4"/><path d="M12 18v-5"/></svg>',
         };

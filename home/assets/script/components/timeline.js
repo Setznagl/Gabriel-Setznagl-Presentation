@@ -81,27 +81,49 @@ class TimelineComponent extends HTMLElement {
             </div>
     
             <div class="education">
-              <h3 class="education__title">Education &amp; Training</h3>
+              <h3 class="education__title">Education</h3>
               <div class="education__grid">
                 <div class="edu-card">
-                  <div class="edu-card__icon">🎓</div>
-                  <div><strong>Software Engineering</strong><span>Anhanguera Ampli · In progress</span></div>
+                  <div class="edu-card__icon">
+                  <img src="../../../../home/assets/images/software-engineering.svg" alt="Software Engineering" width="56px" height="74px"/>
+                  </div>
+                  <div><strong>Software Engineering</strong><span>Anhanguera Ampli · Completed</span></div>
                 </div>
                 <div class="edu-card">
-                  <div class="edu-card__icon">🤖</div>
-                  <div><strong>Artificial Intelligence </strong><span>PUC · In progress</span></div>
+                  <div class="edu-card__icon">
+                  <img src="../../../../home/assets/images/ai.svg" alt="Artificial Intelligence" width="56px" height="74px"/>
+                  </div>
+                  <div><strong>Applied Artificial Intelligence </strong><span>PUCPR - Pontifícia Universidade Católica do Paraná · In progress</span></div>
                 </div>
+                <div class="edu-card">
+                  <div class="edu-card__icon">
+                  <img src="../../../../home/assets/images/data-science-icon.svg" alt="Data Science" width="56px" height="74px"/>
+                  </div>
+                  <div><strong>Data Science</strong><span> Pitágoras Unopar · In progress</span></div>
+                </div>
+              </div>
+            </div><br><br>
+            
+            <div class="education">
+              <h3 class="education__title">Relevant Trainings</h3>
+              <div class="education__grid">
                 <div class="edu-card">
                   <div class="edu-card__icon">☕</div>
-                  <div><strong>Java Academy</strong><span>Atos-UFN · Solid Java, JDBC, Hibernate, Spring, Angular, Docker</span></div>
+                  <div>
+                    <strong>Java Academy</strong>
+                    <span>Atos-UFN · Solid Java, JDBC, Hibernate, Spring, Angular, Docker</span>
+                  </div>
                 </div>
                 <div class="edu-card">
                   <div class="edu-card__icon">🖥</div>
-                  <div><strong>Codifica Fullstack +PraTi 2024</strong><span>Data Structures · React · NodeJS · HTML/CSS/JS</span></div>
+                  <div><strong>Codifica Fullstack +PraTi 2024</strong><span>Data Structures · React · Node.js · HTML/CSS/JS</span></div>
                 </div>
                 <div class="edu-card">
                   <div class="edu-card__icon">⚡</div>
-                  <div><strong>Ada Tech — Cognizant Diversability</strong><span>Java IO/NIO · Concurrency · JUnit &amp; Mockito</span></div>
+                  <div><strong>Ada Tech — Cognizant Diversability</strong><span> Java IO/NIO · Concurrency · JUnit &amp; Mockito</span></div>
+                </div>
+                </div>
+                </div>
                 </div>
               </div>
             </div>

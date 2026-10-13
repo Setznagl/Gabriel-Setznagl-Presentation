@@ -34,7 +34,7 @@ class ContactComponent extends HTMLElement {
                   </div>
                   <div>
                     <span class="contact__card-label">Email</span>
-                    <a href="mailto:devznagl@gmail.com" class="contact__card-value">devznagl@gmail.com</a>
+                    <a href="mailto:mailhandler-devznagl@proton.me" class="contact__card-value">mailhandler-devznagl@proton.me</a>
                   </div>
                 </div>
                 <div class="contact__card">

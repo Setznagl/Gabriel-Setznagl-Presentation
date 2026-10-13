@@ -1,4 +1,4 @@
-// noinspection JSUnusedGlobalSymbols,DuplicatedCode
+// noinspection all
 class ProjectsComponent extends HTMLElement {
     constructor() {
         super();
@@ -21,9 +21,9 @@ class ProjectsComponent extends HTMLElement {
         <section class="section section--alt" id="projects">
           <div class="container">
             <div class="section__header">
-              <span class="section__eyebrow">Work</span>BACKEND
+              <span class="section__eyebrow">Work</span>FULLSTACK
               <h2 class="section__title">Projects</h2>
-              <p class="section__subtitle">Personal builds, learning projects, and open-source contributions.</p>
+              <p class="section__subtitle">Personal builds, learning projects, group projects and open-source contributions.</p>
             </div>
     
             <div class="projects__tabs">
@@ -36,6 +36,7 @@ class ProjectsComponent extends HTMLElement {
     
                 <div class="project-card">
                   <div class="project-card__img-wrap">
+                    <img src="../../../../home/assets/images/AVA-2026.svg" alt="Atlantico Avanti 2026" class="project-card__img"/>
                     <img src="https://placehold.co/600x340/1a1a2e/7c3aed?text=AVA+FullStack+2026" alt="Atlantico Avanti 2026" class="project-card__img" />
                     <div class="project-card__overlay">
                       <a rel="noopener" class="project-card__action">Live ↗</a>
@@ -51,6 +52,8 @@ class ProjectsComponent extends HTMLElement {
                       <span class="tag">Express.js</span>
                       <span class="tag">Prisma ORM</span>
                       <span class="tag">React</span>
+                      <span class="tag">Swagger/OpenAPI 3.0</span>
+                      <span class="tag">JasonWebToken</span>
                       <span class="tag">PostgreSQL</span>
                       <span class="tag">Docker</span>
                     </div>

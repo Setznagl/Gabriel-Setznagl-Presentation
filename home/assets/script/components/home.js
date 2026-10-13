@@ -28,11 +28,12 @@ class HomeComponent extends HTMLElement {
               <span class="typed-text" id="typedText"></span><span class="typed-cursor">|</span>
             </p>
             <p class="hero__bio">
-              Fullstack Engineer (Java + React) in career transition — building scalable systems
+              Fullstack Engineer (Java + TypeScript) in career transition — building scalable systems
               with hands-on experience in DevOps, CI/CD pipelines, Cloud Computing and AI-assisted development.
               <br>
               Bachelor's degree in Software Engineering at Anhanguera Ampli.
               Currently, pursuing an Associate Degree for Applied Artificial Intelligence at PUC-PR.
+              Currently, pursuing an Associate Degree for Data Science at Unopar.
             </p>
             <div class="hero__cta">
               <a href="#projects" class="btn btn--primary">View Projects</a>
@@ -45,7 +46,7 @@ class HomeComponent extends HTMLElement {
               <a href="https://linkedin.com/in/gabriel-setznagl" target="_blank" rel="noopener" class="hero__social" aria-label="LinkedIn">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
               </a>
-              <a href="mailto:devznagl@gmail.com" class="hero__social" aria-label="Email">
+              <a href="mailto:mailhandler-devznagl@proton.me" class="hero__social" aria-label="Email">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
               </a>
             </div>
