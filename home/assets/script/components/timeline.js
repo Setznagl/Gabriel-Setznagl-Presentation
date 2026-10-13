@@ -85,19 +85,19 @@ class TimelineComponent extends HTMLElement {
               <div class="education__grid">
                 <div class="edu-card">
                   <div class="edu-card__icon">
-                  <img src="../../../../home/assets/images/software-engineering.svg" alt="Software Engineering" width="56px" height="74px"/>
+                  <img src="../../../../home/assets/images/software-engineering.png" alt="Software Engineering" width="56px" height="74px"/>
                   </div>
                   <div><strong>Software Engineering</strong><span>Anhanguera Ampli · Completed</span></div>
                 </div>
                 <div class="edu-card">
                   <div class="edu-card__icon">
-                  <img src="../../../../home/assets/images/ai.svg" alt="Artificial Intelligence" width="56px" height="74px"/>
+                  <img src="../../../../home/assets/images/ai.png" alt="Artificial Intelligence" width="56px" height="74px"/>
                   </div>
                   <div><strong>Applied Artificial Intelligence </strong><span>PUCPR - Pontifícia Universidade Católica do Paraná · In progress</span></div>
                 </div>
                 <div class="edu-card">
                   <div class="edu-card__icon">
-                  <img src="../../../../home/assets/images/data-science-icon.svg" alt="Data Science" width="56px" height="74px"/>
+                  <img src="../../../../home/assets/images/data-science.png" alt="Data Science" width="56px" height="74px"/>
                   </div>
                   <div><strong>Data Science</strong><span> Pitágoras Unopar · In progress</span></div>
                 </div>
