@@ -104,30 +104,6 @@ class TimelineComponent extends HTMLElement {
               </div>
             </div><br><br>
             
-            <div class="education">
-              <h3 class="education__title">Relevant Trainings</h3>
-              <div class="education__grid">
-                <div class="edu-card">
-                  <div class="edu-card__icon">☕</div>
-                  <div>
-                    <strong>Java Academy</strong>
-                    <span>Atos-UFN · Solid Java, JDBC, Hibernate, Spring, Angular, Docker</span>
-                  </div>
-                </div>
-                <div class="edu-card">
-                  <div class="edu-card__icon">🖥</div>
-                  <div><strong>Codifica Fullstack +PraTi 2024</strong><span>Data Structures · React · Node.js · HTML/CSS/JS</span></div>
-                </div>
-                <div class="edu-card">
-                  <div class="edu-card__icon">⚡</div>
-                  <div><strong>Ada Tech — Cognizant Diversability</strong><span> Java IO/NIO · Concurrency · JUnit &amp; Mockito</span></div>
-                </div>
-                </div>
-                </div>
-                </div>
-              </div>
-            </div>
-    
           </div>
         </section>
         `;
