@@ -29,6 +29,7 @@ class HeaderComponent extends HTMLElement {
                   <a href="#skills"     class="nav__link"        data-section="skills">Skills</a>
                   <a href="#projects"   class="nav__link"        data-section="projects">Projects</a>
                   <a href="#experience" class="nav__link"        data-section="experience">Experience</a>
+                  <a href="#certificates" class="nav__link"       data-section="certificates">Certificates</a>
                   <a href="#contact"    class="nav__link"        data-section="contact">Contact</a>
                 </nav>
                  <button class="nav__burger" id="navBurger" aria-label="Menu">
@@ -42,6 +43,7 @@ class HeaderComponent extends HTMLElement {
                 <a href="#skills" class="mobile-menu__link">Skills</a>
                 <a href="#projects" class="mobile-menu__link">Projects</a>
                 <a href="#experience" class="mobile-menu__link">Experience</a>
+                <a href="#certificates" class="mobile-menu__link">Certificates</a>
                 <a href="#contact" class="mobile-menu__link">Contact</a>
               </div>
         `;
