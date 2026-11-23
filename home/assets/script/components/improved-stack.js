@@ -6,6 +6,7 @@ class ImprovedStackComponent extends HTMLElement {
         { name: 'Hibernate', icon: '🗄', category: 'backend', frequency: 'periodically', stage: 'built', deployUrl: '#' },
         { name: 'Spring Boot', icon: '🌱', category: 'backend', frequency: 'occasional', stage: 'basics', deployUrl: '#' },
         { name: 'Node.js', icon: '🟢', category: 'backend', frequency: 'periodically', stage: 'deployed', deployUrl: '#' },
+        { name: 'Python', icon: '🐍', category: 'backend', frequency: 'frequently', stage: 'built', deployUrl: '#' },
         { name: 'HTML5', icon: '🧱', category: 'frontend', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
         { name: 'CSS3', icon: '🎨', category: 'frontend', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
         { name: 'JavaScript', icon: '⚡', category: 'frontend', frequency: 'periodically', stage: 'deployed', deployUrl: '#' },
@@ -15,6 +16,8 @@ class ImprovedStackComponent extends HTMLElement {
         { name: 'Git & GitHub', icon: '🔀', category: 'tools', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
         { name: 'Docker', icon: '🐳', category: 'tools', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
         { name: 'Postman', icon: '📬', category: 'tools', frequency: 'periodically', stage: 'deployed', deployUrl: '#' },
+        { name: 'AI Agents', icon: '🤖', category: 'tools', frequency: 'frequently', stage: 'built', deployUrl: '#' },
+        { name: 'Hermes Agent', icon: '🪽', category: 'tools', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
         { name: 'JUnit & Mockito', icon: '🧪', category: 'backend', frequency: 'occasional', stage: 'basics', deployUrl: '#' },
     ];
 
