@@ -1,24 +1,24 @@
 // noinspection JSUnusedGlobalSymbols
 class ImprovedStackComponent extends HTMLElement {
     static SKILLS = [
-        { name: 'Java', icon: '☕', category: 'backend', frequency: 'frequently', stage: 'built', deployUrl: '#' },
-        { name: 'Maven', icon: '📦', category: 'backend', frequency: 'periodically', stage: 'built', deployUrl: '#' },
-        { name: 'Hibernate', icon: '🗄', category: 'backend', frequency: 'periodically', stage: 'built', deployUrl: '#' },
-        { name: 'Spring Boot', icon: '🌱', category: 'backend', frequency: 'occasional', stage: 'basics', deployUrl: '#' },
-        { name: 'Node.js', icon: '🟢', category: 'backend', frequency: 'periodically', stage: 'deployed', deployUrl: '#' },
-        { name: 'Python', icon: '🐍', category: 'backend', frequency: 'frequently', stage: 'built', deployUrl: '#' },
-        { name: 'HTML5', icon: '🧱', category: 'frontend', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
-        { name: 'CSS3', icon: '🎨', category: 'frontend', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
-        { name: 'JavaScript', icon: '⚡', category: 'frontend', frequency: 'periodically', stage: 'deployed', deployUrl: '#' },
-        { name: 'React', icon: '⚛️', category: 'frontend', frequency: 'occasional', stage: 'deployed', deployUrl: '#' },
-        { name: 'PostgreSQL', icon: '🐘', category: 'database', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
-        { name: 'MySQL', icon: '🗃', category: 'database', frequency: 'occasional', stage: 'basics', deployUrl: '#' },
-        { name: 'Git & GitHub', icon: '🔀', category: 'tools', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
-        { name: 'Docker', icon: '🐳', category: 'tools', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
-        { name: 'Postman', icon: '📬', category: 'tools', frequency: 'periodically', stage: 'deployed', deployUrl: '#' },
-        { name: 'AI Agents', icon: '🤖', category: 'tools', frequency: 'frequently', stage: 'built', deployUrl: '#' },
-        { name: 'Hermes Agent', icon: '🪽', category: 'tools', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
-        { name: 'JUnit & Mockito', icon: '🧪', category: 'backend', frequency: 'occasional', stage: 'basics', deployUrl: '#' },
+        { name: 'Java', icon: 'java', category: 'backend', frequency: 'frequently', stage: 'built', deployUrl: '#' },
+        { name: 'Maven', icon: 'maven', category: 'backend', frequency: 'periodically', stage: 'built', deployUrl: '#' },
+        { name: 'Hibernate', icon: 'hibernate', category: 'backend', frequency: 'periodically', stage: 'built', deployUrl: '#' },
+        { name: 'Spring Boot', icon: 'spring', category: 'backend', frequency: 'occasional', stage: 'basics', deployUrl: '#' },
+        { name: 'Node.js', icon: 'nodejs', category: 'backend', frequency: 'periodically', stage: 'deployed', deployUrl: '#' },
+        { name: 'Python', icon: 'python', category: 'backend', frequency: 'frequently', stage: 'built', deployUrl: '#' },
+        { name: 'HTML5', icon: 'html5', category: 'frontend', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
+        { name: 'CSS3', icon: 'css3', category: 'frontend', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
+        { name: 'JavaScript', icon: 'javascript', category: 'frontend', frequency: 'periodically', stage: 'deployed', deployUrl: '#' },
+        { name: 'React', icon: 'react', category: 'frontend', frequency: 'occasional', stage: 'deployed', deployUrl: '#' },
+        { name: 'PostgreSQL', icon: 'postgresql', category: 'database', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
+        { name: 'MySQL', icon: 'mysql', category: 'database', frequency: 'occasional', stage: 'basics', deployUrl: '#' },
+        { name: 'Git & GitHub', icon: 'git', category: 'tools', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
+        { name: 'Docker', icon: 'docker', category: 'tools', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
+        { name: 'Postman', icon: 'postman', category: 'tools', frequency: 'periodically', stage: 'deployed', deployUrl: '#' },
+        { name: 'LangChain', icon: 'langchain', category: 'tools', frequency: 'frequently', stage: 'built', deployUrl: '#' },
+        { name: 'Hermes Agent', icon: 'hermes-agent', category: 'tools', frequency: 'frequently', stage: 'deployed', deployUrl: '#' },
+        { name: 'JUnit & Mockito', icon: 'junit', category: 'backend', frequency: 'occasional', stage: 'basics', deployUrl: '#' },
     ];
 
     static STAGES = ['basics', 'built', 'deployed'];
@@ -139,7 +139,7 @@ class ImprovedStackComponent extends HTMLElement {
 
         .skill-card__head {
           display: grid;
-          grid-template-columns: 2rem minmax(0, 1fr) auto;
+          grid-template-columns: 2.4rem minmax(0, 1fr) auto;
           align-items: center;
           gap: 0.625rem;
           margin-bottom: 0.5rem;
@@ -147,14 +147,16 @@ class ImprovedStackComponent extends HTMLElement {
 
         .skill-card__icon {
           display: grid;
-          width: 2rem;
-          height: 2rem;
+          width: 2.4rem;
+          height: 2.4rem;
           place-items: center;
           flex-shrink: 0;
-          background: var(--purple-faint);
-          border-radius: 0.45rem;
-          font-size: 1.15rem;
-          line-height: 1;
+        }
+
+        .skill-card__icon img {
+          width: 2.4rem;
+          height: 2.4rem;
+          object-fit: contain;
         }
 
         .skill-card__name {
@@ -280,8 +282,9 @@ class ImprovedStackComponent extends HTMLElement {
 
         @media (max-width: 425px) {
           .skill-card { padding-right: 0.8rem; }
-          .skill-card__head { grid-template-columns: 1.8rem minmax(0, 1fr) auto; gap: 0.45rem; }
-          .skill-card__icon { width: 1.8rem; height: 1.8rem; }
+          .skill-card__head { grid-template-columns: 2.2rem minmax(0, 1fr) auto; gap: 0.45rem; }
+          .skill-card__icon { width: 2.2rem; height: 2.2rem; }
+          .skill-card__icon img { width: 2.2rem; height: 2.2rem; }
           .skill-card__evidence { gap: 0.22rem; }
           .skill-card__stage { gap: 0.2rem; font-size: 0.45rem; }
           .skill-card__stage svg { width: 0.78rem; height: 0.45rem; }
@@ -336,7 +339,7 @@ class ImprovedStackComponent extends HTMLElement {
         return `
         <article class="skill-card reveal" data-category="${skill.category}" data-frequency="${skill.frequency}">
           <div class="skill-card__head">
-            <span class="skill-card__icon" aria-hidden="true">${skill.icon}</span>
+            <span class="skill-card__icon" aria-hidden="true"><img src="../../assets/icons/tech/${skill.icon}.svg" alt=""></span>
             <h3 class="skill-card__name">${skill.name}</h3>
             <span class="skill-card__category">${skill.category}</span>
           </div>
